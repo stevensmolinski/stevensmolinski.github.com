@@ -587,6 +587,67 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
 
+#page {
+	width: 100%;
+	font-size: 0.8em;
+}
+
+#header {
+	width: 90%;
+	margin: 0 auto 1em;
+}
+
+#title,
+#title a {
+	font-size: 1.7em;
+}
+#subtitle {
+	font-size: 0.9em;
+}
+
+#main-wrapper {
+	position: relative;
+}
+
+#leftcol {
+	float: none;
+	width: 90%;
+	margin: 1.2em auto;
+	font-size: 1em;
+}
+
+#leftcol nav {
+	text-align: center;
+}
+
+#leftcol nav a {
+	display: inline;
+	padding: 0.4em 1.0em;
+}
+
+#content-wrapper {
+	float: left;
+	width: 60%;
+	margin: 0 5% 1em;
+}
+
+#rightcol {
+	float: left;
+	width: 25%;
+}
+
+.article-separator {
+	margin-bottom: 1em;
+}
+
+#footer {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
 }
 
 /* iPads (portrait) ----------- */
@@ -594,7 +655,22 @@ and (orientation : landscape) {
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
-/* Styles */
+
+#page {
+	font-size: 1.1em;
+}
+
+}
+
+/* iPhone landscape attempt */
+@media only screen
+and (max-device-width: 768px)
+and (orientation: landscape) {
+
+#page {
+	font-size: 0.8em;
+}
+
 }
 
 
