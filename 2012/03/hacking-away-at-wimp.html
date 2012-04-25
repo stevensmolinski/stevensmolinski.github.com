@@ -1,0 +1,584 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Quicksand|Maven+Pro' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="alternate" type="application/atom+xml" title="danger, inc feed" href="/feeds/blog.xml" />
+  <title>danger, inc - Hacking Away At WIMP</title>
+  <script src="/js/libs/modernizr-2.5.3.min.js"></script>
+  
+</head>
+<body>
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <div id="page">
+    <header id="header">
+      
+        <hgroup id="title-wrapper">
+          <h1 id="title"><a href="/">danger, inc</a></h1>
+          <hr/>
+          <h2 id="subtitle">...not really incorporated</h2>
+        </hgroup>
+      
+    </header>
+    <div id="main-wrapper">
+      
+      <div id="leftcol">
+        
+          <nav id="main-nav"><a
+            id="main-nav-1" href="/">Home</a><a
+            id="main-nav-2" href="/archives.html">Archives</a><a
+            id="main-nav-3" href="/about.html">About</a></nav>
+        
+      </div>
+      <div id="content-wrapper">
+        
+    
+    
+
+<article class="article blogpost">
+  <header>
+    
+    <h1><a href="/2012/03/hacking-away-at-wimp.html">Hacking Away At WIMP</a></h1>
+    
+  </header>
+  <p>The WIMP<sup><a name="wimp-defn-origin" href="#wimp-defn">1</a></sup> paradigm for computer interfaces has had a good run. Since 1980 virtually all interface advancements have centered around it. </p>
+<p>There are other user interface paradigms around, but they're not where the action is. I spend a lot of time on the command line, but I can't say it has evolved a whole lot, at least among the unixes. The people that spend all their time in shells seem to prefer them to stay just as they are.</p>
+<p>But recently the industry has been evolving beyond WIMP. I want to check in and see how far we are from WIMP, and if there's a clear evolution taking place. Since mobile is where the future lies, let's use that as the lens.</p>
+<p>First, mobile OSes have also largely dispensed with traditional windows. Windows use significant screen space and enable having multiple applications running on screen at once. On a mobile device, both screen real estate and memory are scarce enough to jettison windows.</p>
+<p>Icons fit well with touch-based interfaces, and so they've largely survived. They might be called tiles and they might be animated, but they're still icons.</p>
+<p>Menus have changed on mobile OSes, but they still exist. Mobile computing has a sense of urgency absent from the desktop. Users get more easily frustrated if they have to hunt 3 levels deep in a hierarchy to find a function they need. So while there are some menu-like UI constructions on mobile OSes, they seem largely deprecated — and apps that make extensive use of them are generally poor.</p>
+<p>Ever since PalmOS the writing has been on the wall for the pointer. With styluses or touch-based interfaces, you can still point at things, but it's directly with a finger or stylus instead of indirectly with a mouse, joystick, or touchpad. Without a pointer you give up some things like hover events, but a great many pointer conceits remain, such as buttons and clicks. Indirect pointers are gone, but the entire concept isn't destroyed. Touch replaces Pointer, but it's an evolution rather than a revolution.</p>
+<h1>FIBT?</h1>
+<p>Instead of WIMP, are mobile OSes upgrading to FIBT?</p>
+<ul>
+<li><strong>Fullscreen</strong>. Instead of Windows, OSes are investigating different ways of having fullscreen applications. Either one at time, stacked like cards, or even two at a time side-by-side, but no windowing chrome.</li>
+<li><strong>Icons</strong>. Icons exist, but are now touch targets. Largely the same.</li>
+<li><strong>Buttons</strong>. Menus are flattened out into more intuitive buttons prominently placed in the application. Many interface elements become touchable, which makes them essentially buttons.</li>
+<li><strong>Touch</strong>. Direct manipulation instead of indirect, as with a Pointer.</li>
+</ul>
+<h1>Human Interfaces</h1>
+<p>I'm sure there's more to come, and I haven't even mentioned voice. Voice is still too new to be a real force — although there's a clearly a future in it. WIMP and FIBT are <em>graphical</em> user interfaces while voice (and Kinect-like gestures) are in a new category of interfaces.</p>
+<p>Is there even a good name for these? Perhaps they are <em>human</em> interfaces, where computers listen and watch what we do to interpret it. It reverses all earlier <em>computer</em> interfaces where the humans have to learn how to work the computer.</p>
+<h1>Moving On</h1>
+<p>In any case, it is a relief that the industry is moving on. There were problems with WIMP that couldn't be solved from within. How many interface rules do we have to compensate for the fact that indirect pointing devices are less accurate than touch? It's a better solution to replace it with touch than to pour more research in interface rules to compensate.</p>
+<hr />
+<p class="footnote"><a name="wimp-defn" href="#wimp-defn-origin">1</a> WIMP stands for "Windows, Icons, Menus, Pointer". <a href="#wimp-defn-origin" style="text-decoration: none;">↺</a></p>
+  <div class="taglist">ios, mac</div>
+  <footer>
+    
+    Posted
+     by Steve 
+     on 2012-03-09 20:15:00
+    
+  </footer>
+</article>
+
+
+
+      </div>
+      <div id="rightcol">
+        
+    
+    
+
+  
+  
+    
+      
+        
+          
+            
+            <div class="supplements">
+              <nav class="archives related">
+                <h1>Related Posts</h1>
+                <ul>
+            
+            
+                <li><a class="archivelink" href="/2011/04/ios-app-updates-are-broken.html">iOS App Updates Are Broken</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2011/10/unix-without-a-filesystem.html">Unix Without A Filesystem</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+      
+    
+    
+  
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2011/02/navigating-the-app-store.html">Navigating the App Store</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2011/04/the-mac-app-store.html">The (Mac) App Store</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2011/08/lions-legacy-sandboxing.html">Lion's Legacy: Sandboxing</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2012/02/why-annual-osx-releases-are-important.html">Why Annual OS X Releases Are Important</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2012/03/why-add-a-printer-at-all.html">Why Add A Printer At All</a></li>
+            
+            
+          
+        
+      
+    
+    
+          </ul>
+        </nav>
+      </div>
+    
+  
+
+    <div class="supplements"</a>
+      <nav class="archives">
+  <header><h1>Blog Archives</h1></header>
+  <a class="archivelink" href="/archives.html">All Posts</a>
+  <ul>
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2012/03">March 2012
+        (2)
+      </a></li>
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2012/02">February 2012
+        (1)
+      </a></li>
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2012/01">January 2012
+        (2)
+      </a></li>
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/10">October 2011
+        (2)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/08">August 2011
+        (1)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/06">June 2011
+        (2)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/05">May 2011
+        (2)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/04">April 2011
+        (4)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/03">March 2011
+        (3)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/02">February 2011
+        (1)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+  </ul>
+</nav>
+
+    </div>
+    <div class="supplements">
+      <section>
+        <header><h1>Links</h1></header>
+        <a href="/feeds/blog.xml">Atom Feed</a>
+      </section>
+    </div>
+
+      </div>
+      
+    </div>
+    <footer id="footer">
+      
+      Copyright &copy; 2012 Steven Smolinski.
+      
+    </footer>
+  </div>
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+  <script src="/js/plugins.js"></script>
+  <script src="/js/script.js"></script>
+
+  <script>
+    var _gaq=[['_setAccount','UA-30918530-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>

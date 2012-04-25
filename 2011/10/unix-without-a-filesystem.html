@@ -1,0 +1,571 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Quicksand|Maven+Pro' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="alternate" type="application/atom+xml" title="danger, inc feed" href="/feeds/blog.xml" />
+  <title>danger, inc - Unix Without A Filesystem</title>
+  <script src="/js/libs/modernizr-2.5.3.min.js"></script>
+  
+</head>
+<body>
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <div id="page">
+    <header id="header">
+      
+        <hgroup id="title-wrapper">
+          <h1 id="title"><a href="/">danger, inc</a></h1>
+          <hr/>
+          <h2 id="subtitle">...not really incorporated</h2>
+        </hgroup>
+      
+    </header>
+    <div id="main-wrapper">
+      
+      <div id="leftcol">
+        
+          <nav id="main-nav"><a
+            id="main-nav-1" href="/">Home</a><a
+            id="main-nav-2" href="/archives.html">Archives</a><a
+            id="main-nav-3" href="/about.html">About</a></nav>
+        
+      </div>
+      <div id="content-wrapper">
+        
+    
+    
+
+<article class="article blogpost">
+  <header>
+    
+    <h1><a href="/2011/10/unix-without-a-filesystem.html">Unix Without A Filesystem</a></h1>
+    
+  </header>
+  <p>As Apple moves Mac OS X toward iOS-like behaviour, the filesystem on Macs is slowly withering away. New features such as versions are accessible only from within an application. iCloud syncing doesn't work on arbitrary files, but on documents, again from within an application.</p>
+<p>All this is to get away from having users use the filesystem. That's not a bad goal, since the filesystem is one of the bits of legacy that nerds understand but regular people don't. Real appliances won't have user-visible filesystems.</p>
+<p>One aspect of Apple's iOS approach is that documents belong to a single app. There is no arbitrary data lying around, and no files that are equally shared by several applications in concert. It appears they're trying to keep to a simple mental model of how documents work, so non-nerds will be able to use the device properly.</p>
+<p>Unix, on the other hand, loves files made up of arbitrary (generally textual) data that many apps access. The data itself is primary and standalone. Programs were often written to conform to data conventions, so the files could be operated on by any program. The Mac/iOS way is to have the app be primary, and it solely owns any data it needs to do its job.</p>
+<p>The Unix Way and the Mac/iOS Way are incompatible. As one becomes more prevalent, the other will be harder.</p>
+<h1>So What?</h1>
+<p>Many unix programmers migrated to the Mac because it was the best unix-like system. You got the slick Mac GUI, but could compile source or get binaries for very nearly any unix program you could enjoy on the free unixes. But as Apple moves to iOS-ify the Mac, ported unix utilities will operate farther and farther from the Mac Way. MacVim, for example, <a href="http://vim.1045645.n5.nabble.com/Feature-Request-quot-Auto-Save-and-Versions-quot-td4668510.html" title="MacVim: AutoSave and Versions">will never support Lion's AutoSave and Versions</a>. This is not because it's too hard — it's because those features don't make sense with the way Vim works.</p>
+<p>So what does this mean for programmers on the Mac Platform? As the gap between Mac and Unix conventions widen, will dissonance push unix developers off? Where will they go? Or will there just be a growing difference between a developer's Mac and a regular user's?</p>
+<p>I'm not complaining about the iOS-ification of the Mac. Computers <em>have to</em> become appliances if they're to be used heavily by the general public. It's that I am so used to the development platform also being the general-purpose computing platform. It will be interesting to observe the end of that relationship.</p>
+  <div class="taglist">mac, ios</div>
+  <footer>
+    
+    Posted
+     by Steve 
+     on 2011-10-20 19:12:00
+    
+  </footer>
+</article>
+
+
+
+      </div>
+      <div id="rightcol">
+        
+    
+    
+
+  
+  
+    
+      
+        
+          
+            
+            <div class="supplements">
+              <nav class="archives related">
+                <h1>Related Posts</h1>
+                <ul>
+            
+            
+                <li><a class="archivelink" href="/2011/02/navigating-the-app-store.html">Navigating the App Store</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2011/04/the-mac-app-store.html">The (Mac) App Store</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2011/08/lions-legacy-sandboxing.html">Lion's Legacy: Sandboxing</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2012/02/why-annual-osx-releases-are-important.html">Why Annual OS X Releases Are Important</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2012/03/hacking-away-at-wimp.html">Hacking Away At WIMP</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2012/03/why-add-a-printer-at-all.html">Why Add A Printer At All</a></li>
+            
+            
+          
+        
+      
+    
+    
+  
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2011/04/ios-app-updates-are-broken.html">iOS App Updates Are Broken</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+    
+          </ul>
+        </nav>
+      </div>
+    
+  
+
+    <div class="supplements"</a>
+      <nav class="archives">
+  <header><h1>Blog Archives</h1></header>
+  <a class="archivelink" href="/archives.html">All Posts</a>
+  <ul>
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2012/03">March 2012
+        (2)
+      </a></li>
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2012/02">February 2012
+        (1)
+      </a></li>
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2012/01">January 2012
+        (2)
+      </a></li>
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/10">October 2011
+        (2)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/08">August 2011
+        (1)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/06">June 2011
+        (2)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/05">May 2011
+        (2)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/04">April 2011
+        (4)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/03">March 2011
+        (3)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/02">February 2011
+        (1)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+  </ul>
+</nav>
+
+    </div>
+    <div class="supplements">
+      <section>
+        <header><h1>Links</h1></header>
+        <a href="/feeds/blog.xml">Atom Feed</a>
+      </section>
+    </div>
+
+      </div>
+      
+    </div>
+    <footer id="footer">
+      
+      Copyright &copy; 2012 Steven Smolinski.
+      
+    </footer>
+  </div>
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+  <script src="/js/plugins.js"></script>
+  <script src="/js/script.js"></script>
+
+  <script>
+    var _gaq=[['_setAccount','UA-30918530-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>

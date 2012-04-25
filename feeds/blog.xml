@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Whiskypedia Blog</title>
+  <subtitle>Real Reviews for Real People</subtitle>
+  <link href="http://dangerinc.ca/"/>
+  <link rel="self" href="http://dangerinc.ca/feeds/blog.xml"/>
+  
+  <updated>2012-03-09T20:15:00-03:30</updated>
+  <author>
+    <name>Steven Smolinski</name>
+  </author>
+  <contributor>
+    <name>Aaron</name>
+  </contributor>
+  <id>http://dangerinc.ca/#blog</id>
+  <logo>/apple-touch-icon-57x57-precomposed.png</logo>
+  <rights>Copyright 2012 Steven Smolinski</rights>
+
+  
+  
+  <entry>
+    <title>Hacking Away At WIMP</title>
+    <link href="http://dangerinc.ca/2012/03/hacking-away-at-wimp.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2012/03/hacking-away-at-wimp.html</id>
+    <updated>2012-03-09T20:15:00-03:30</updated>
+    <content type="html">&lt;p&gt;The WIMP&lt;sup&gt;&lt;a name=&#34;wimp-defn-origin&#34; href=&#34;#wimp-defn&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; paradigm for computer interfaces has had a good run. Since 1980 virtually all interface advancements have centered around it. &lt;/p&gt;
+&lt;p&gt;There are other user interface paradigms around, but they&#39;re not where the action is. I spend a lot of time on the command line, but I can&#39;t say it has evolved a whole lot, at least among the unixes. The people that spend all their time in shells seem to prefer them to stay just as they are.&lt;/p&gt;
+&lt;p&gt;But recently the industry has been evolving beyond WIMP. I want to check in and see how far we are from WIMP, and if there&#39;s a clear evolution taking place. Since mobile is where the future lies, let&#39;s use that as the lens.&lt;/p&gt;
+&lt;p&gt;First, mobile OSes have also largely dispensed with traditional windows. Windows use significant screen space and enable having multiple applications running on screen at once. On a mobile device, both screen real estate and memory are scarce enough to jettison windows.&lt;/p&gt;
+&lt;p&gt;Icons fit well with touch-based interfaces, and so they&#39;ve largely survived. They might be called tiles and they might be animated, but they&#39;re still icons.&lt;/p&gt;
+&lt;p&gt;Menus have changed on mobile OSes, but they still exist. Mobile computing has a sense of urgency absent from the desktop. Users get more easily frustrated if they have to hunt 3 levels deep in a hierarchy to find a function they need. So while there are some menu-like UI constructions on mobile OSes, they seem largely deprecated — and apps that make extensive use of them are generally poor.&lt;/p&gt;
+&lt;p&gt;Ever since PalmOS the writing has been on the wall for the pointer. With styluses or touch-based interfaces, you can still point at things, but it&#39;s directly with a finger or stylus instead of indirectly with a mouse, joystick, or touchpad. Without a pointer you give up some things like hover events, but a great many pointer conceits remain, such as buttons and clicks. Indirect pointers are gone, but the entire concept isn&#39;t destroyed. Touch replaces Pointer, but it&#39;s an evolution rather than a revolution.&lt;/p&gt;
+&lt;h1&gt;FIBT?&lt;/h1&gt;
+&lt;p&gt;Instead of WIMP, are mobile OSes upgrading to FIBT?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fullscreen&lt;/strong&gt;. Instead of Windows, OSes are investigating different ways of having fullscreen applications. Either one at time, stacked like cards, or even two at a time side-by-side, but no windowing chrome.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Icons&lt;/strong&gt;. Icons exist, but are now touch targets. Largely the same.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Buttons&lt;/strong&gt;. Menus are flattened out into more intuitive buttons prominently placed in the application. Many interface elements become touchable, which makes them essentially buttons.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Touch&lt;/strong&gt;. Direct manipulation instead of indirect, as with a Pointer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Human Interfaces&lt;/h1&gt;
+&lt;p&gt;I&#39;m sure there&#39;s more to come, and I haven&#39;t even mentioned voice. Voice is still too new to be a real force — although there&#39;s a clearly a future in it. WIMP and FIBT are &lt;em&gt;graphical&lt;/em&gt; user interfaces while voice (and Kinect-like gestures) are in a new category of interfaces.&lt;/p&gt;
+&lt;p&gt;Is there even a good name for these? Perhaps they are &lt;em&gt;human&lt;/em&gt; interfaces, where computers listen and watch what we do to interpret it. It reverses all earlier &lt;em&gt;computer&lt;/em&gt; interfaces where the humans have to learn how to work the computer.&lt;/p&gt;
+&lt;h1&gt;Moving On&lt;/h1&gt;
+&lt;p&gt;In any case, it is a relief that the industry is moving on. There were problems with WIMP that couldn&#39;t be solved from within. How many interface rules do we have to compensate for the fact that indirect pointing devices are less accurate than touch? It&#39;s a better solution to replace it with touch than to pour more research in interface rules to compensate.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p class=&#34;footnote&#34;&gt;&lt;a name=&#34;wimp-defn&#34; href=&#34;#wimp-defn-origin&#34;&gt;1&lt;/a&gt; WIMP stands for &#34;Windows, Icons, Menus, Pointer&#34;. &lt;a href=&#34;#wimp-defn-origin&#34; style=&#34;text-decoration: none;&#34;&gt;↺&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Why Add A Printer At All</title>
+    <link href="http://dangerinc.ca/2012/03/why-add-a-printer-at-all.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2012/03/why-add-a-printer-at-all.html</id>
+    <updated>2012-03-04T13:15:00-03:30</updated>
+    <content type="html">&lt;p&gt;Linus Torvalds &lt;a href=&#34;https://plus.google.com/102150693225130002912/posts/1vyfmNCYpi5&#34;&gt;recently vented on Google+&lt;/a&gt; about needing the root password on a SuSE install to add a printer. He&#39;s not wrong, but I don&#39;t think he goes far enough.&lt;sup&gt;&lt;a name=&#34;printer-aside-origin&#34; href=&#34;#printer-aside&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The idea of &#34;adding&#34; a printer comes from the days when printers  were actual hardware peripherals, like a sound card or a mouse. You&#39;d need some privileges to add or change hardware, generally because it meant new drivers had to be loaded into the operating system kernel. A buggy driver could bring down the whole system.  So to protect the system, loading kernel drivers — and thus changing any hardware — were made to require higher privileges.&lt;/p&gt;
+&lt;p&gt;Today, a printer is another service on the network. A printer is a network service, complete with an IP address, where you send it bits, and it sends bits back to you. And hopefully, it prints some of the bits onto dead trees. &lt;em&gt;Using a new printer is more like using a new web site than it is like adding hardware.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Just as you don&#39;t need to &#34;add&#34; facebook to your browser in order to use it, you shouldn&#39;t have to &#34;add&#34; a network printer to your system in order to use it. Linus is annoyed that it takes root privileges on SuSE to add a printer, but I&#39;m annoyed every time I need to add a printer at all. It reminds me how little the software side of printing has advanced, and how far it has to go.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p class=&#34;footnote&#34;&gt;&lt;sup&gt;&lt;a name=&#34;printer-aside&#34; href=&#34;#printer-aside-origin&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;As an aside, it&#39;s telling that a number of Linus&#39;s responders claimed the system is &#34;working as intended&#34;, suggesting that fiddling with &lt;code&gt;sudo&lt;/code&gt; or &lt;code&gt;/etc/groups&lt;/code&gt; is the &#34;linux way&#34; to enable such things. This view of the &#34;linux way&#34; as protecting the arbitrary rules of the system instead of designing for the end user is why I don&#39;t run linux on my machines any longer. But that&#39;s another post. &lt;a href=&#34;#printer-aside-origin&#34; style=&#34;text-decoration: none;&#34;&gt;↺&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Why Annual OS X Releases Are Important</title>
+    <link href="http://dangerinc.ca/2012/02/why-annual-osx-releases-are-important.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2012/02/why-annual-osx-releases-are-important.html</id>
+    <updated>2012-02-26T19:50:00-03:30</updated>
+    <content type="html">&lt;p&gt;&lt;a href=&#34;http://daringfireball.net/2012/02/mountain_lion&#34;&gt;Mountain Lion&lt;/a&gt; will be the first release in a new annual schedule for OS X. Like many of Apple&#39;s moves it&#39;s initially surprising, but hindsight makes it seem obvious. I&#39;m sure there are several benefits to an annual release, but I would propose that iCloud may be the largest.&lt;/p&gt;
+&lt;p&gt;We know from &lt;a href=&#34;http://www.macrumors.com/2012/02/14/apple-ceo-tim-cook-speaks-at-goldman-sachs-technology-conference/&#34;&gt;Tim Cook&#39;s comments&lt;/a&gt; that he views iCloud as a &#34;strategy for the next decade or more&#34;. Rolling out an iCloud service doesn&#39;t just require server code and a giant data center, it also means client-side code in every Apple computing device. And it&#39;s not just an app: given how iCloud services are tightly integrated into the operating systems, an iCloud service also means an update to iOS and OS X.&lt;/p&gt;
+&lt;h1&gt;More like Documents &lt;em&gt;Only&lt;/em&gt; in the Cloud&lt;/h1&gt;
+&lt;p&gt;We have an example of an iCloud service that was launched without coordinated support from iOS and OS X, and it was ugly. Documents in the Cloud launched only with iOS support. Since Apple hates to describe features they &lt;em&gt;don&#39;t&lt;/em&gt; support, they didn&#39;t volunteer that there was no support in OS X. Documents would sync between iPads and iPhones, but not OS X computers. At best you could manually access the document via Apple&#39;s web site. It was a glaring omission, and made Documents in the Cloud nearly useless for a lot of daily tasks.&lt;/p&gt;
+&lt;p&gt;This lack of integration baffled reviewers and users alike. Apple usually shoots to delight customers, not to baffle them. It didn&#39;t &#34;just work&#34;. Worse, it will have been close to 9 months before OS X gets Documents in the Cloud capability.&lt;/p&gt;
+&lt;h1&gt;iCloud Requires Coordination&lt;/h1&gt;
+&lt;p&gt;A yearly OS X release schedule allows Apple to coordinate iCloud service releases with operating system releases. Any framework updates to support new iCloud functionality can be baked into iOS and OS X and launched together in coordination with the service. The closer the releases are, the more seamless the iCloud service will appear. And if it&#39;s not seamless, Apple won&#39;t be able to win back customer trust from the last several years of janky network services.&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Circumventing IT</title>
+    <link href="http://dangerinc.ca/2012/01/circumventing-it.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2012/01/circumventing-it.html</id>
+    <updated>2012-01-24T19:51:00-03:30</updated>
+    <content type="html">&lt;p&gt;I&#39;ve been watching a trend in software that&#39;s really significant. The potential size of the market is as large as the discontent that business units have with their internal IT departments. I&#39;m talking about cloud services that target the business units themselves, not their saurian Enterprise IT department.&lt;/p&gt;
+&lt;p&gt;Take Salesforce. Their &lt;a href=&#34;http://wordpress.salesforce.com/images/salesforce_logo.png&#34;&gt;logo&lt;/a&gt; emphasizes the &#34;No Software&#34; concept because the single most important part of their model is that you don&#39;t &lt;em&gt;need&lt;/em&gt; Enterprise IT.&lt;/p&gt;
+&lt;h1&gt;Don&#39;t Ask, Don&#39;t Tell&lt;/h1&gt;
+&lt;p&gt;Salesforce helped establish cloud delivery of software years ago. As cloud services become more capable, the same technique is being applied to more categories of business software. And the model itself is improving. The key is that you should be able to deploy the solution without asking IT for permission.&lt;/p&gt;
+&lt;p&gt;You couldn&#39;t do this years ago because you needed to deploy software on PCs in the enterprise, which meant you needed IT. The web and HTTPS solved that problem. The most recent limiting factor was needing IT for data integration. But modern cloud services have agents that can run on someone&#39;s laptop and use HTTPS to send data from excel files or a connection to an internal database. Sure, it circumvents IT controls and audit requirements, but it also circumvents long, expensive IT projects. And it&#39;s better to ask forgiveness than permission.&lt;/p&gt;
+&lt;h1&gt;The Vendors Know&lt;/h1&gt;
+&lt;p&gt;The vendors of this style of software know they are enabling business units directly. They don&#39;t advertise to IT departments. Their sales pitch is aimed directly at non-technical users of the service: easy installation, user-administered, and never using the words &#34;Enterprise IT&#34;. Instead of responding to RFPs and attending bake-offs to check off features, vendors have self-service web ordering systems and take business Vice Presidents to lunch and ask why they&#39;re letting IT kick them in the balls.&lt;/p&gt;
+&lt;p&gt;Pricing is also changing to be more business friendly. Enterprise IT departments will generally have a heavyweight procurement process that takes months to sign a contract, involving complex licensing with CPU-equivalents, 22% per year annual maintenance, yadda yadda. But with these new services, it&#39;s $x/month for a seat, period. It&#39;s a pricing model regular business users can calculate, project, and most importantly, pay out of their own budget.&lt;/p&gt;
+&lt;p&gt;This model will be more successful the more Enterprise IT sucks.    And it will continue to suck for a number of years, lumbering along towards its own extinction. There&#39;s a new future of enterprise IT — with smaller, better adapted mammals instead of dinosaurs. But that&#39;s a topic for another day.&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>RIP General Purpose Computing (Again)</title>
+    <link href="http://dangerinc.ca/2012/01/rip-general-purpose-computing-again.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2012/01/rip-general-purpose-computing-again.html</id>
+    <updated>2012-01-10T20:42:00-03:30</updated>
+    <content type="html">&lt;p&gt;Every time Apple makes a big move, tech nerds announce the impending death of &#34;general purpose&#34; computing at Apple&#39;s hands.&lt;/p&gt;
+&lt;p&gt;Well, I have a newsflash: Apple&#39;s products are going to cause increasing worry about the death of personal computing, because Apple will increasingly make products for people to &lt;em&gt;use&lt;/em&gt;, rather than to &lt;em&gt;compute&lt;/em&gt; with.&lt;/p&gt;
+&lt;h1&gt;Normal people don&#39;t &#34;compute&#34;&lt;/h1&gt;
+&lt;p&gt;The &#34;general purpose&#34; computer is user-programmable, or can have arbitrary programs installed. Techies care deeply about this level of control. Normal people don&#39;t want to program, and don&#39;t care where the programs come from, so long as they do the right things.&lt;/p&gt;
+&lt;p&gt;Normal people don&#39;t &#34;compute&#34; as such. They want to achieve specific non-computer goals like chatting with friends and seeing pictures of family. They talk, they shop, they read, they play and create. Normal people don&#39;t care if the mechanism is a general purpose computer or a ziplock full of unicorn dust.&lt;/p&gt;
+&lt;p&gt;Techies want to &#34;compute&#34;. This means to experiment, play, check out leading edge capabilities, and search for new computer-powered capabilities they might like to use in their lives. Normal people don&#39;t search for new things to do on a computer — they have real-world goals, and see if a device can help accomplish any of them.&lt;/p&gt;
+&lt;h1&gt;Apple Targets Normal People&lt;/h1&gt;
+&lt;p&gt;Note that normal people require a streamlined platform that is fit-to-task. Techies require a platform with nearly unlimited flexibility. When designing products, these goals are often incompatible.&lt;/p&gt;
+&lt;p&gt;Apple wants to make products that normal people use to take care of normal people&#39;s tasks. When the usability for normal people clashes with a general purpose attribute, they will choose the normal user. The result is that newer Apple products will look less and less like general purpose computers as they become better tools for normal people.&lt;/p&gt;
+&lt;p&gt;This doesn&#39;t mean the death of general purpose computing. It just means the death of pushing general purpose computers on normal people who don&#39;t want or need them.&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Unix Without A Filesystem</title>
+    <link href="http://dangerinc.ca/2011/10/unix-without-a-filesystem.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2011/10/unix-without-a-filesystem.html</id>
+    <updated>2011-10-20T19:12:00-02:30</updated>
+    <content type="html">&lt;p&gt;As Apple moves Mac OS X toward iOS-like behaviour, the filesystem on Macs is slowly withering away. New features such as versions are accessible only from within an application. iCloud syncing doesn&#39;t work on arbitrary files, but on documents, again from within an application.&lt;/p&gt;
+&lt;p&gt;All this is to get away from having users use the filesystem. That&#39;s not a bad goal, since the filesystem is one of the bits of legacy that nerds understand but regular people don&#39;t. Real appliances won&#39;t have user-visible filesystems.&lt;/p&gt;
+&lt;p&gt;One aspect of Apple&#39;s iOS approach is that documents belong to a single app. There is no arbitrary data lying around, and no files that are equally shared by several applications in concert. It appears they&#39;re trying to keep to a simple mental model of how documents work, so non-nerds will be able to use the device properly.&lt;/p&gt;
+&lt;p&gt;Unix, on the other hand, loves files made up of arbitrary (generally textual) data that many apps access. The data itself is primary and standalone. Programs were often written to conform to data conventions, so the files could be operated on by any program. The Mac/iOS way is to have the app be primary, and it solely owns any data it needs to do its job.&lt;/p&gt;
+&lt;p&gt;The Unix Way and the Mac/iOS Way are incompatible. As one becomes more prevalent, the other will be harder.&lt;/p&gt;
+&lt;h1&gt;So What?&lt;/h1&gt;
+&lt;p&gt;Many unix programmers migrated to the Mac because it was the best unix-like system. You got the slick Mac GUI, but could compile source or get binaries for very nearly any unix program you could enjoy on the free unixes. But as Apple moves to iOS-ify the Mac, ported unix utilities will operate farther and farther from the Mac Way. MacVim, for example, &lt;a href=&#34;http://vim.1045645.n5.nabble.com/Feature-Request-quot-Auto-Save-and-Versions-quot-td4668510.html&#34; title=&#34;MacVim: AutoSave and Versions&#34;&gt;will never support Lion&#39;s AutoSave and Versions&lt;/a&gt;. This is not because it&#39;s too hard — it&#39;s because those features don&#39;t make sense with the way Vim works.&lt;/p&gt;
+&lt;p&gt;So what does this mean for programmers on the Mac Platform? As the gap between Mac and Unix conventions widen, will dissonance push unix developers off? Where will they go? Or will there just be a growing difference between a developer&#39;s Mac and a regular user&#39;s?&lt;/p&gt;
+&lt;p&gt;I&#39;m not complaining about the iOS-ification of the Mac. Computers &lt;em&gt;have to&lt;/em&gt; become appliances if they&#39;re to be used heavily by the general public. It&#39;s that I am so used to the development platform also being the general-purpose computing platform. It will be interesting to observe the end of that relationship.&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Dragon's Lair Driving</title>
+    <link href="http://dangerinc.ca/2011/10/dragons-lair-driving.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2011/10/dragons-lair-driving.html</id>
+    <updated>2011-10-15T15:42:00-02:30</updated>
+    <content type="html">&lt;p&gt;Having just moved to this new city, I challenge myself to drive around it without the aid of GPS. For the first few forays I carefully studied &lt;a href=&#34;http://maps.google.com/&#34; title=&#34;Google Maps&#34;&gt;Google Maps&lt;/a&gt; before leaving the house, so I could execute the route by memory.&lt;/p&gt;
+&lt;p&gt;Cities with sane, engineered layouts take very little time to learn. Some also have tricks to make memorization easier: grids, numbered street names, and conventions for North-South versus East-West suffixes. Those cities are trying to make navigation easier both for tourists and natives, and largely succeeding.&lt;/p&gt;
+&lt;p&gt;The message conveyed by St. John&#39;s is to abandon all hope. Few streets join at a ninety degree angle. There&#39;s no real grid shape as the city curls around a bay. Street names change every few lights due to ridiculous by-laws. Intersections aren&#39;t limited to four intersecting rights-of-way; sometimes there are five or six entryways making a star shape. This results in all sorts of hilarity as &#34;turning right&#34; might mean &#34;this right&#34; or &#34;that right&#34; depending on which option you pick. But the cars have no indicator for &#34;second right&#34;, so you have to wing it.&lt;/p&gt;
+&lt;p&gt;Indicators! As though St. John&#39;s drivers would stoop to use indicators. Since most lanes at intersections end up becoming mandatory left or right (or mandatory straight), indicators are irrelevant to the veteran driver. They know that if you&#39;re in a certain lane, you have little choice of where to go, so why indicate? But for newcomers it&#39;s like a Plinko game from The Price Is Right, where you&#39;re supposed to guess a block in advance which lane will lead to your goal, and which empties off into some irrelevant side street.&lt;/p&gt;
+&lt;h1&gt;Dragon&#39;s Lair&lt;/h1&gt;
+&lt;p&gt;The driving experience reminds me of that horrible 80&#39;s arcade game, &lt;a href=&#34;http://en.wikipedia.org/wiki/Dragon&#39;s_Lair&#34; title=&#34;Dragon&#39;s Lair Wikipedia&#34;&gt;&lt;em&gt;Dragon&#39;s Lair&lt;/em&gt;&lt;/a&gt;. It&#39;s the laser-disc game that pitched a hero encountering a new threat every 5 seconds, requiring the player to literally guess which action would save him: pushing the joystick one of four directions, or hitting the  sword button. There was no opportunity to figure it out: every 5 seconds you had to guess which of the 5 moves was the correct one, and ignore the other 4. &lt;/p&gt;
+&lt;p&gt;So people eventually won the game simple by trial-and-error; running through each encounter and failing until they found the magical move that would get them through alive. Then they&#39;d memorize the moves and replay them back.&lt;/p&gt;
+&lt;p&gt;That&#39;s what driving across town feels like. You have to know it&#39;s the left lane until a certain street, then the middle lane for a couple more sets of lights, then to take the left &#34;Y&#34; at a fork, then the &#34;right right&#34; at a 5-way crossing. And you learn this by getting caught in the wrong lane at each intersection, spirited away to some part of town you don&#39;t want to be in.&lt;/p&gt;
+&lt;p&gt;So I&#39;m learning to drive here the same way I learned Dragon&#39;s Lair in the 80&#39;s: I&#39;m just memorizing every lane change on every road I&#39;m likely to take, since there&#39;s no rhyme or reason or pattern to follow.&lt;/p&gt;
+&lt;h1&gt;Trade-offs&lt;/h1&gt;
+&lt;p&gt;This is a great real world analogue to the trade-offs for new users versus power users of software. If someone&#39;s a power user, you can make them jump through all sorts of complex hoops with little information and context simply because they will memorize any amount of weirdness given enough time. But for new users, the spartan visual cues and lack of consistency will be maddening.&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Lion's Legacy: Sandboxing</title>
+    <link href="http://dangerinc.ca/2011/08/lions-legacy-sandboxing.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2011/08/lions-legacy-sandboxing.html</id>
+    <updated>2011-08-02T07:47:00-02:30</updated>
+    <content type="html">&lt;p&gt;Lion&#39;s new sandboxing feature has one groundbreaking aspect that has never been done with a sandbox environment before: Apple has enforced it on thousands of software developers through the Mac App Store.&lt;/p&gt;
+&lt;p&gt;The technical bits are not technically unique or groundbreaking, but the enforcement is. Apple is raising the bar on technical skill and expertise — and therefore the cost of production of all the apps on the app store. This has never been done &lt;em&gt;for security&lt;/em&gt;, for fear of running off developers to another platform.&lt;/p&gt;
+&lt;p&gt;The technical principles behind sandboxing are well known. I first got excited about sandboxing with &lt;a href=&#34;http://en.wikipedia.org/wiki/Dan_Bernstein&#34;&gt;Dan Bernstein&#39;s&lt;/a&gt; &lt;a href=&#34;http://en.wikipedia.org/wiki/Qmail&#34;&gt;software&lt;/a&gt;. For years djb has been writing secure software — at least secure compared to normal standards. His applications run as several separate processes with minimal interfaces (and defined, known failure modes), and the least interaction with the system required for their duties.&lt;/p&gt;
+&lt;p&gt;While the technique has been known for some years, the path of least resistance to application authors is the traditional monolithic program. It&#39;s much riskier, since a bug in one part of the program (say, the network side) can be exploited to do something to another part (say, the filesystem). So black hats can hit areas of code likely to have vulnerabilities (parsers that allocate and manage many buffers) to exploit a program to do something else (put files on the filesystem and/or execute code).&lt;/p&gt;
+&lt;p&gt;So breaking your program up separates the part that handles lots of buffers from the part that talks to the filesystem. It not only gets the programmer to think about the design more, reducing bugs, it also lessens the severity of any bugs that are left in. But it&#39;s only part of the battle. The system must also have the level of control which restricts the processes to just the set of resources necessary to do their jobs. Unix has some of this, but it&#39;s tricky. There also have to be standard services to call to get access to special resources, like arbitrary parts of the filesystem.&lt;/p&gt;
+&lt;p&gt;Even if all of that is in place, we still don&#39;t see tons of developers creating this type of secure software. &lt;strong&gt;So long as it&#39;s been possible for people &lt;em&gt;not&lt;/em&gt; to write applications in this way, they will not.&lt;/strong&gt; It&#39;s harder, and there isn&#39;t an economic payoff. It isn&#39;t a feature that users generally pay for, in part, because customers can&#39;t evaluate security well on a program by program basis.&lt;/p&gt;
+&lt;p&gt;But Apple has an incentive to keep the &lt;em&gt;platform itself&lt;/em&gt; more secure. People may not evaluate single programs against each other, but they do know which platforms are riddled with security problems. The Mac has benefitted from low malware rates for years, and Apple has marketed on that fact. Now they must actively take care to keep that reputation.&lt;/p&gt;
+&lt;p&gt;iOS users are unprecedented in the current computer age for their trust and willingness to install applications. So far, that trust has been earned by Apple. Especially compared to Android, where trojans are removed only after they cause a few thousand people some harm. If Apple can make their Mac App Store as secure, then everyone with an ounce of technical sense will be telling their family members to buy Apple, if only to reduce their own support burden.&lt;/p&gt;
+&lt;p&gt;I applaud Apple for taking security seriously. Not because it&#39;s altruistic — they&#39;re doing it entirely because it&#39;s a measurable competitive advantage. I applaud them for gaining their advantage honestly, with real security improvements, instead of &lt;a href=&#34;http://en.wikipedia.org/wiki/Security_theatre&#34;&gt;security theatre&lt;/a&gt;. They could have just tried to run from the bear a little faster than Windows. Instead they&#39;re trying something substantial, at a nontrivial cost.&lt;/p&gt;
+&lt;p&gt;Not only is it laudable, it&#39;s likely to teach a generation of programmers what secure software looks like. This could raise the bar permanently on what platforms are expected to provide, leaving a legacy of better-engineered code as the result. When all the dust settles, that may be the largest impact Lion has.&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Looking Like Idiots</title>
+    <link href="http://dangerinc.ca/2011/06/looking-like-idiots.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2011/06/looking-like-idiots.html</id>
+    <updated>2011-06-20T12:09:00-02:30</updated>
+    <content type="html">&lt;p&gt;&lt;a href=&#34;http://brooksreview.net/2011/06/ny-post-stupidity/&#34;&gt;Ben Brooks envisions&lt;/a&gt; how stupid business decisions get made. I&#39;ve directly witnessed such business decisions, so I can add some detail to his NY Post scenario.&lt;/p&gt;
+&lt;p&gt;Not every corporation is like this, but it is prevalent. It comes down to two things: stupid options have to be presented, and they are presented in obfuscated business-speak.&lt;/p&gt;
+&lt;p&gt;Of course, no one wants to waste an executive&#39;s time with a stupid option. But if there&#39;s an article about a crazy idea in a trade magazine, or someone&#39;s kid has discovered a trendy thing, then that option &lt;em&gt;has to be presented&lt;/em&gt; to the executives. If you don&#39;t, they&#39;ll bring it up anyway, and it&#39;s a loss of credibility for not including it. So there&#39;s almost always a stupid option on the table.&lt;/p&gt;
+&lt;p&gt;In &lt;em&gt;many&lt;/em&gt; corporate cultures, people use the most generalized, watered-down language to sound &#34;businesslike&#34;. It&#39;s not just about buzzwords, it&#39;s about aping business publications and analysts. Eliminating plain language always reduces clarity, but   some executives only listen if it sounds &#34;businesslike&#34;.&lt;/p&gt;
+&lt;p&gt;So consultants get skills in presenting stupid options in a &#34;businesslike&#34; way. For example, the option would cause &#34;the business to lose alignment with customer needs&#34;, &#34;leave money on the table&#34;, or &#34;be perceived by many in an unfavourable light&#34;. Sometimes they try to put estimated costs on the stupidity so it&#39;s clearly a poor business decision. That sort of thing.&lt;/p&gt;
+&lt;p&gt;Consultants will sit in a room with a whiteboard and write across the top: &#34;Option 1 makes the company look like idiots.&#34; Then they painstakingly translate that into a set of businesslike bullets. And the &lt;em&gt;entire goal&lt;/em&gt; is to present that final text to an executive and have them mutter under their breath, &#34;if we did this we&#39;d look like idiots&#34;. But often you can&#39;t just say it. That&#39;s not how it works. You&#39;ve got a tie on for christ&#39;s sake, you&#39;re not allowed to tell people they&#39;d look like idiots.&lt;/p&gt;
+&lt;p&gt;Occasionally the broken-telephone game of &#34;businesslike&#34; translation fails. Like in Ben&#39;s make-believe discussion, sometimes an executive will say, &#34;I think we&#39;re exaggerating this whole PR issue.&#34; And right then, you realize you&#39;ve just participated in making a really stupid business decision. &lt;/p&gt;
+&lt;p&gt;I say &#34;participated&#34; because it&#39;s hard to say it&#39;s 100% anyone&#39;s fault. Is it the guy who wanted the stupid option to get tabled? The consultant who didn&#39;t translate into negative-enough businesslike terms? The executive making decisions off of watered-down verbiage? It&#39;s not just a single person: it takes a village to make really stupid decisions.&lt;/p&gt;
+&lt;p&gt;It&#39;s a reason I like to stick to terse, plain language whenever the audience is open to it. I&#39;ve seen many fewer poor decisions made when all the elements were explicitly and plainly discussed.&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>That's Fine For Merlin</title>
+    <link href="http://dangerinc.ca/2011/06/thats-fine-for-merlin.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2011/06/thats-fine-for-merlin.html</id>
+    <updated>2011-06-16T20:55:00-02:30</updated>
+    <content type="html">&lt;p&gt;Merlin Mann&#39;s &lt;a href=&#34;http://www.webstock.org.nz/talks/speakers/merlin-mann/scared-shitless-how-i-mostly-learned-love-being-af/&#34;&gt;speeches&lt;/a&gt; and &lt;a href=&#34;http://5by5.tv/b2w/&#34;&gt;podcasts&lt;/a&gt; about the struggle of creation are often frenetic but wonderful. I can&#39;t decide if he&#39;s giving us the speech, or if he&#39;s delivering it to himself while we listen in. It&#39;s obvious that creation isn&#39;t sort of abstract study for him. He speaks from hard-won knowledge. He&#39;s created &lt;a href=&#34;http://www.kungfugrippe.com/archive&#34;&gt;many&lt;/a&gt; &lt;a href=&#34;http://www.kungfugrippe.com/post/5201422193/ubi-sunt&#34;&gt;wonderful&lt;/a&gt; &lt;a href=&#34;http://www.43folders.com/2004/09/03/introducing-the-hipster-pda&#34;&gt;things&lt;/a&gt;, and just as &lt;a href=&#34;http://www.43folders.com/2011/04/22/cranking&#34;&gt;famously&lt;/a&gt; &lt;em&gt;failed&lt;/em&gt; to create some wonderful things.&lt;/p&gt;
+&lt;p&gt;My most impactful advice to friends were all lessons that I had learned the hard way. They were so well polished because I had run through the words many times. The words were spinning around my mind in the shower, on the drive home, in front of the TV, and when I should have been working. Some of Merlin&#39;s lessons sound so polished you know he must be living them.&lt;/p&gt;
+&lt;p&gt;Merlin&#39;s main lesson is also his most inspiring trait: tenacity.  He&#39;s still at it. He&#39;s read all the books, and heard all the platitudes. For a time he even wrote those platitudes on &lt;a href=&#34;http://43folders.com/&#34;&gt;43folders.com&lt;/a&gt; — before its liberation. And as a child of the  productivity industry, he&#39;ll tell you that it comes down to hard work.&lt;/p&gt;
+&lt;p&gt;That&#39;s the voice of experience. Of persistence. Of trying one silver bullet after another and finding they&#39;re all just balls of lead.&lt;/p&gt;
+&lt;p&gt;Even though there are a thousand ways to illustrate, it&#39;s still a single lesson to learn. Merlin can cover it over and over again, in different ways, for hours. It&#39;s redundant but never boring, and if you struggle with creation the lesson is something you can&#39;t hear too often. It may be the only real lesson you need to learn, &lt;em&gt;if you really learn it.&lt;/em&gt; It&#39;s &lt;strong&gt;to pick something actually important and then &lt;em&gt;do&lt;/em&gt; the hell out of it.&lt;/strong&gt;&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Out Of Scope</title>
+    <link href="http://dangerinc.ca/2011/05/out-of-scope.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2011/05/out-of-scope.html</id>
+    <updated>2011-05-19T20:56:00-02:30</updated>
+    <content type="html">&lt;p&gt;Everyone in corporate IT is familiar with scope statements. They attempt to clearly divide what can change (&#34;in scope&#34;) from what can&#39;t change (&#34;out of scope&#34;). The goal of a scope is to focus the project&#39;s effort. But there are so many &lt;em&gt;better&lt;/em&gt; ways to specify and control a project&#39;s proper area of effort that &#34;scope&#34; is redundant, and worse: it is often used to place arbitrary constraints on a project without proper consideration.&lt;/p&gt;
+&lt;p&gt;At its best, scope is worthless because there are more effective ways to achieve control. Items that are &#34;in scope&#34; are better divided into the goals and success conditions of the project, dependencies, milestones and objectives. Items that are &#34;out of scope&#34; are better distilled into constraints, assumptions, budgets, and target dates.&lt;/p&gt;
+&lt;p&gt;Using &#34;scope&#34; instead of the more detailed descriptions enables sloppy thinking. A constraint requires a reason and a measurement. A dependency requires some reason and mechanism. Objectives and goals should be directly linked to business success. But often the &#34;Out of Scope&#34; label is a dumping ground for poorly conceived items that someone didn&#39;t want to touch for some unstated and &lt;em&gt;unchallenged&lt;/em&gt; reason.&lt;/p&gt;
+&lt;p&gt;At its worst, scope is used to stop thought and discussion. If something is &#34;out of scope&#34; then it&#39;s not on the table. A &lt;em&gt;constraint&lt;/em&gt; encourages thought and discussion. You can get around or eliminate constraints. Constraints are finite and have a rationale. Scope statements often come with none of these. They’re big “don’t touch” signs.&lt;/p&gt;
+&lt;p&gt;Items ruled out of scope are often &lt;a href=&#34;http://www.perlmonks.org/index.pl?node_id=542341&#34;&gt;X/Y problems&lt;/a&gt;. You rule Y out of scope because you’re worried about X. For example, some project sponsor naming a specific technology out of scope because it’s likely to be too expensive. This is better expressed as a budget constraint. The project team can then figure out what fits in the budget and what doesn’t.&lt;/p&gt;
+&lt;p&gt;Because there’s no reasoning associated with it, scope just &lt;em&gt;is&lt;/em&gt;, and it is cumbersome to change. God forbid a team manages to change scope, since that will draw zealous managers like carrion birds to a fresh carcass. Constraints, assumptions, and measured budget changes smell less like rotting meat.&lt;/p&gt;
+&lt;p&gt;I suggest we stop talking about scope, and instead be more precise. The corporate world would be a better place by one buzzword.&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Habit Forming</title>
+    <link href="http://dangerinc.ca/2011/05/habit-forming.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2011/05/habit-forming.html</id>
+    <updated>2011-05-11T20:20:00-02:30</updated>
+    <content type="html">&lt;p&gt;I arrived at my new home last week with only a suitcase of clothes and a laptop bag stuffed with all the electronics gear it could hold: two laptops and an iPad, complete with cables and accessories. It&#39;s a new province, in a new house, with a new girl. She&#39;s not &lt;em&gt;new&lt;/em&gt;, but she is new to living with me.&lt;/p&gt;
+&lt;p&gt;The first week has been subtly unsettling. Not quite jarring like working out of a Starbucks in Morocco. The new workplace is ostensibly comfortable: a specific room for an office, a nice big chair, a desk, and a river of wifi. What else could I want?&lt;/p&gt;
+&lt;p&gt;It&#39;s not that everything is in the &lt;em&gt;wrong&lt;/em&gt; place. All the places I know —  right or wrong — are back in the old city. Here I have no &lt;em&gt;places&lt;/em&gt; at all. I don&#39;t know where to put my coffee. Scratch that, I don&#39;t even know where the coffee maker is. I can&#39;t decide if my pad goes on the left or the right of the laptop. There&#39;s no pen holder on the desk to be out of place. It&#39;s not that everything is wrong, it&#39;s that the things that are generally wrong aren&#39;t even here to be wrong.&lt;/p&gt;
+&lt;p&gt;I have to find totally new things to be wrong.&lt;/p&gt;
+&lt;p&gt;My old habits aren&#39;t just slightly off, they&#39;re nonexistent. The morning walk to the subway is gone. The grandé americano isn&#39;t worth driving for. The office building is in the wrong province. There are no glumly stoic subway faces between me and my first scan of my inbox. Oh, the inbox! It used to have almost seven thousand emails waiting at work. I&#39;ve pruned it to less than ten.&lt;/p&gt;
+&lt;p&gt;There are no guitars to pick up in a spare moment. There are no drums. A gigantic back catalog of TV seasons are on a transport trailer somewhere in Eastern Canada. Every childhood memento, every carefully curated reminiscence is bouncing in the back of a truck, with a tiny orange tag the size of a fingernail to identify it from all the other boxes.&lt;/p&gt;
+&lt;p&gt;So I have to find new things to be habitual about here. I have been walking, but it&#39;s in circles, always coming back around to the house. In the city I could kid myself that every outing wasn&#39;t a big circle because of the stop in the middle: to shop, to eat, to drink, something. There&#39;s a destination, and it&#39;s not where you started. In the new place I need to drive to get anywhere fun. The drive is only 5-10 minutes, but it means getting in the car. So I walk in big circles.&lt;/p&gt;
+&lt;p&gt;I tell myself I&#39;ll get out more when the weather&#39;s better, but who am I kidding? This latitude is a playground for people who like sweaters, and the longitude is engineered for fog and drizzle. Whatever habits I make, they must involve sweaters and waterproof shoes.&lt;/p&gt;
+&lt;p&gt;So it&#39;s taking me a little while to get started. It would be nice if the new habits are &lt;em&gt;interesting&lt;/em&gt;. Good habits. &lt;em&gt;Engineered&lt;/em&gt; habits. Ones that are as comforting and homey as the ones I left behind in that old city.&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>iOS App Updates Are Broken</title>
+    <link href="http://dangerinc.ca/2011/04/ios-app-updates-are-broken.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2011/04/ios-app-updates-are-broken.html</id>
+    <updated>2011-04-16T17:46:00-02:30</updated>
+    <content type="html">&lt;p&gt;I need to declare &#34;app bankruptcy&#34;. Every couple of weeks iTunes will tell me how many updates I have waiting on the app store: generally nine or ten. The volume doesn&#39;t bother me as much as the relevance, since usually only one of the apps is one I use regularly.&lt;/p&gt;
+&lt;p&gt;The iOS app update system is broken because it&#39;s not user-centric.&lt;/p&gt;
+&lt;p&gt;Low relevance makes updating a chore. You have to wait to download hundreds of megabytes of apps just to get the one in the middle you like. And if you&#39;re tempted to solely update the one you care about, the rest of them just stay in the update list. Eventually you&#39;ll have 100 apps that need updating and you&#39;ll need to scan through pages to find that one that&#39;s new. And when there is an update, what&#39;s in it? Is it important?&lt;/p&gt;
+&lt;p&gt;There are interface elements that could make that easier: hiding apps, sorting by how new the updates are, etc. But that&#39;s just masking the problem. The problem is that the whole update experience isn&#39;t designed for the &lt;em&gt;user&lt;/em&gt;, it&#39;s designed from the point of view of the distributor.&lt;/p&gt;
+&lt;h1&gt;Apps I Don&#39;t Use&lt;/h1&gt;
+&lt;p&gt;First of all, there are the apps in iTunes that I &lt;em&gt;don&#39;t have on any device&lt;/em&gt;. I either keep them because deleting is a pain, or because I paid for them already and I have a tendency to packrat away digital things that cost money, even 99 cents. Plus Apple taught me with music that I shouldn&#39;t count on re-downloading stuff from the iTunes store.&lt;/p&gt;
+&lt;p&gt;There should be no updates for apps I don&#39;t have on an iOS device. In fact, I&#39;d rather not have copies of these app, even on my Mac OS system. Once it&#39;s been removed from the last registered device, I don&#39;t know why I need a copy of it in iTunes. I don&#39;t want to lose the investment — it should be re-downloadable from the store, and should show up in a list of apps I &#34;own.&#34; But it&#39;s not something I need to maintain a version of, let alone update the version.&lt;/p&gt;
+&lt;h1&gt;Apps I Do Use&lt;/h1&gt;
+&lt;p&gt;But that doesn&#39;t help the big list of apps that remain. For updates of installed apps, I think we need a much more sophisticated update system than the current one in iTunes. It needs to be sophisticated enough to &lt;em&gt;aid the user in management of the installed software&lt;/em&gt;. Isn&#39;t that the right goal?&lt;/p&gt;
+&lt;p&gt;So what things are involved in helping a user manage their installed software? There are two sorts of things in updates: bug/security fixes and feature updates. I want bugfixes but don&#39;t care to approve them before they go in. Just put them in. This applies to every app. To keep the systems secure and working well I don&#39;t think these updates should be voluntary. Download them when they&#39;re available and put them in.&lt;/p&gt;
+&lt;p&gt;A developer that abuses this by marking an unpopular feature update as a bugfix should have their app removed form the app store. It&#39;s a violation of the user&#39;s trust, just as would be true if the app searched around the phone looking for passwords and sent them to a foreign server.&lt;/p&gt;
+&lt;p&gt;For feature updates there can be some user direction. Many iOS apps have put in user-hostile feature updates by incorporating ads or annoying popups to steer users to a new app. Many times it&#39;s just unpopular redesigns. Not only do I want to see a list of these to choose from, but I want to be able to rollback to an earlier version if there&#39;s an issue. And I want to know that bugfixes are supported for the version I am allowed to rollback to, at least for a predictable time.&lt;/p&gt;
+&lt;p&gt;Right now the system is a big list of apps with any sort of change the developer pushed. It&#39;s set up from a developer or distributor&#39;s perspective, not from a user&#39;s perspective. Users don&#39;t get helpful information or control from the interface. This is contrary to a lot of Apple&#39;s policy choices, which aim to improve the user experience at the expense of developer time.&lt;/p&gt;
+&lt;p&gt;It will take a lot of effort, and for sure some groaning from the developer community, but the end result would be a safer, better app environment.&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Rethinking Data Centers</title>
+    <link href="http://dangerinc.ca/2011/04/rethinking-data-centers.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2011/04/rethinking-data-centers.html</id>
+    <updated>2011-04-09T15:27:00-02:30</updated>
+    <content type="html">&lt;p&gt;Everyone in corporate IT knows the principle that a company should only truly own functions that make up its strategic advantage. Every other function is cheaper and usually better provided by a specialized vendor. I&#39;m not going to describe all the reasons why this is true. Instead I want to talk about the way many corporations choose to implement the principle.&lt;/p&gt;
+&lt;p&gt;The single biggest mistake many corporations make with this principle is that they underestimate integration costs. At some point, integrating vendor products from &lt;em&gt;n&lt;/em&gt; vendors becomes so complex that its cost outweighs the savings.&lt;/p&gt;
+&lt;h1&gt;The Data Center&lt;/h1&gt;
+&lt;p&gt;I was evaluating cloud &lt;a href=&#34;http://code.google.com/appengine/&#34;&gt;application&lt;/a&gt; &lt;a href=&#34;http://force.com/&#34;&gt;platforms&lt;/a&gt; recently. The absolute simplicity of implementation made them very attractive — much more attractive than even slick traditional, on-premise applications. Developing the business app itself would take the same amount of work either way, but to provision an on-premise application stack is more work than the application itself.&lt;/p&gt;
+&lt;p&gt;There&#39;s one big reason we get killed by integration costs: &lt;em&gt;the need to run a data center.&lt;/em&gt; Every orange circle below is a new skill, a different set of expertise, and operational, on-call troubleshooters. Integration can be expensive.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Integration diagram&#34; src=&#34;/images/2011-04-09_integration.png&#34; title=&#34;How much should you be integrating?&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;If your company insists on running the data center, you take on the responsibility of integrating everything that goes into it. Applications need platforms, which need operating systems, which need hardware, which need floorspace, power, cooling, network. And you have to have standards for all the integration points of all these things, and people to make sure tab A fits into slot B.&lt;/p&gt;
+&lt;h1&gt;Technology Calcification&lt;/h1&gt;
+&lt;p&gt;There&#39;s another effect of owning the data center that deserves some attention. Owning the data center for a whole corporation inevitably restricts the solutions available and stagnates IT development.&lt;/p&gt;
+&lt;p&gt;The reason is that every vendor product has the possibility to create a matrix of hard support problems with &lt;em&gt;n&lt;/em&gt; other vendor products. Will that new webserver integrate with your security solution? With the caching solution? Will the IDS system interfere with the new multicast solution?&lt;/p&gt;
+&lt;p&gt;Invariably IT departments will want to restrict the addition of new vendor products. You will need to settle for whatever&#39;s already in there. New tools and techniques that would be perfect on their own would be unmanageable in a monolithic data center situation.&lt;/p&gt;
+&lt;p&gt;On the other hand, the shop that deployed an application to one cloud application environment could just develop their next application on a different provider. The total cost would be the new app itself, and integrating with the new provider. Possibly a clean interface for shoving data back and forth with the old provider, through a standards-based data channel. There wouldn&#39;t be the massive integration costs of getting all the technologies in the two stacks to cooperate.&lt;/p&gt;
+&lt;h1&gt;Think Different&lt;/h1&gt;
+&lt;p&gt;Firms were pushed into running their own data centers to handle their audit, data safety, and latency requirements. This is the time to re-evaluate these decisions. Most firms don&#39;t do data centers well, and it cripples the entire IT function.&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Amazon Cloud Drive</title>
+    <link href="http://dangerinc.ca/2011/04/amazon-cloud-drive.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2011/04/amazon-cloud-drive.html</id>
+    <updated>2011-04-04T01:01:00-02:30</updated>
+    <content type="html">&lt;p&gt;I have a cloud service dream. It&#39;s a variant of the old network computer, where every piece of my data is accessible from any of my computers. But it&#39;s not all about webapps. Gmail is fine, but many functions need native apps, like video editing and development. It&#39;s ok to have to install native apps on each computer — that&#39;s something you just do once. But the &lt;em&gt;data&lt;/em&gt; should have copies on each computer for offline work, and sync to the cloud for safety and access.&lt;/p&gt;
+&lt;p&gt;As much as I&#39;d like to use it, Amazon&#39;s Cloud Drive doesn&#39;t really get me further toward my dream.&lt;/p&gt;
+&lt;p&gt;The interface for Dropbox is the gold standard in cloud data storage. Local files really are local, and changes are synced without any user intervention at all. Amazon&#39;s web-based, manual approach is clunky by comparison. Just like how users only backup if it&#39;s done silently for them in the background, cloud sync should be invisible to the user or it won&#39;t be done.&lt;/p&gt;
+&lt;p&gt;Perhaps some enterprising developer will build a Dropbox-like client for Amazon Cloud Drive. But for Amazon to miss this critical aspect is worrisome.&lt;/p&gt;
+&lt;p&gt;The service itself is finally one that I would trust with critical data. When Amazon advertises that you should &#34;&lt;a href=&#34;https://www.amazon.com/clouddrive/learnmore/ref=sa_menu_acd_lrn2/178-7803094-7930340&#34;&gt;never worry about losing your files again&lt;/a&gt;&#34; on Cloud Drive, they actually have a chance to pull that off. Amazon&#39;s AWS services (such as S3 and EC2) have demonstrated their ability to meet a highly reliable SLA, and Could Drive is based on the same technology. &lt;/p&gt;
+&lt;p&gt;But it&#39;s still too costly. The free 5GB is just a teaser, like Dropbox&#39;s 2GB. The rate of $1/GB/year is just too high a multiple of the cost of local disk. A 2TB external drive will cost around $100 and last a couple of years, but the Cloud Drive equivalent is $2,000 per year.&lt;/p&gt;
+&lt;p&gt;The last barrier is the network — and unfortuntely this is completely out of Amazon&#39;s hands. With broadband speeds in the 5-10 Mbps range, pulling down a ton of data just takes too long. The synced up cloud drive works great for source code, documents, and save files from other applications. But once users turn to 50GB music libraries, 500GB home movie folders, or (perfectly legally obtained) terabyte sized movie archives, the network becomes the bottleneck. It just takes too much time to pull down meaningful portions of the data.&lt;/p&gt;
+&lt;p&gt;The network and cost limitations are why the 5GB free limit will be good enough for many people — because people won&#39;t bother trying to host a 1TB movie library on it.&lt;/p&gt;
+&lt;p&gt;I applaud the service — Amazon is poised to deliver cloud services with reliability unmatched by other companies. But it&#39;s incremental. It&#39;s not the quantum leap I&#39;m looking for to be able to live entirely in the cloud.&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>The (Mac) App Store</title>
+    <link href="http://dangerinc.ca/2011/04/the-mac-app-store.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2011/04/the-mac-app-store.html</id>
+    <updated>2011-04-02T15:12:00-02:30</updated>
+    <content type="html">&lt;p&gt;ckage management is an unsolved problem in consumer computing. It&#39;s not the only one: there are a ton of unsolved problems in consumer computing. Every call the &#34;family tech support guy&#34; gets is because of an unsolved — or horribly solved — consumer problem. Package management is just an interesting one because Apple is finally taking a crack at it with the Mac App Store.&lt;/p&gt;
+&lt;h1&gt;The Landscape&lt;/h1&gt;
+&lt;p&gt;Package Management is a system that people use to find, buy and install software, get updates to that software, and otherwise manage their programs.&lt;/p&gt;
+&lt;p&gt;Shamefully, the most popular consumer computer systems have had horrible package management. Users have been putting up with bad solutions for years, and many don&#39;t even know there are alternatives. Windows provides some standard ways for developers to distribute software, but it&#39;s still largely the same system that was used when you mail-ordered software on floppies and painstakingly installed it yourself. It&#39;s just moved to the internet.&lt;/p&gt;
+&lt;p&gt;Macs have a cleaner way to install software behind the scenes, but it&#39;s still something a user has to &lt;em&gt;do&lt;/em&gt; and manage on their own. And free unixes have had common repositories accessible over the internet. These hit most of the real needs of a package management system, but they miss on the discovery front, and rarely create a market with payment options.&lt;/p&gt;
+&lt;h1&gt;Package Management Anatomy&lt;/h1&gt;
+&lt;p&gt;Remember, the goal of a consumer computing system is to enable regular people to do things. If a regular user has to call the &#34;family tech support guy&#34; to use something, then it&#39;s a failure. There are several things a package management system should do:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Be Discoverable.&lt;/strong&gt; Regular users have to be able to find what they want. The system fails if users have to decide nerdy things, like 32-bit or 64-bit builds, or green/native thread models.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Be Trusted.&lt;/strong&gt; There can&#39;t be malware, tons of ripoffs, or anything else that makes using the package manager risky for an average user. If there are gotchas, the user will phone their family support guy out of fear.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Handle Dependencies.&lt;/strong&gt; Software is built in layers, with user-facing apps relying on several sets of services to work properly. When a user installs some application, they should get every dependency that is required without even knowing it. Dependencies are a developer-level concept, not a user concept.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Handle Updates.&lt;/strong&gt; Developers know when there are updates. The most control a user should have is to decline an update, or roll back to previous if an update doesn&#39;t perform properly. An update that can&#39;t be undone is a potentially serious impact, which is going to make the user fear performing them.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Handle Online Distribution&lt;/strong&gt;. There are a number of attributes of good online distribution platforms, like Amazon. Allow the user to install the software on all of their machines. Allow the user to re-install in case their machine was wiped out or corrupted. Make the download process not depend on any particular developer&#39;s hosting environment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Handle Payment.&lt;/strong&gt; As a &lt;em&gt;developer&lt;/em&gt; I loved the Debian package manager. But there was simply no place in the architecture for payment. The iOS App Store has shown the sort of creativity and innovation you can get if there is a payment system. Free software is great, but you will not want to exclude paid software.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;The (Mac) App Store&lt;/h1&gt;
+&lt;p&gt;The Mac App Store isn&#39;t 100% there yet, but it&#39;s seriously competitive. Every package management system is somewhat restrictive — automation requires some amount of restrictive rules.&lt;/p&gt;
+&lt;p&gt;The Mac App Store is relatively discoverable. There are some editorial sections, a decent search function, and a workable browse function. Each app page has a minimum of material to get an idea about the app — description, changelog, screenshots, reviews. This is more than I ever got from &lt;code&gt;apt-get show&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The Mac App Store goes a long way towards trust. The iOS store may frustrate some developers with its restrictiveness, but it&#39;s paid off for users. Never before have users felt so free to buy or download apps without any research past whether or not the functionality of the app is good. They trust that there is no malware. They trust that the payment system isn&#39;t a scam. They trust that they can recover (re-download) the software if something goes wrong.&lt;/p&gt;
+&lt;p&gt;Consumer Mac Apps have handled dependencies relatively gracefully for some time. On other systems, the approach has been to install shared components once and have some system for apps to find them. Aside from Apple-delivered frameworks, most Mac Apps just simply ship copies of their dependencies. This takes far more disk space, and can consume more memory. But Moore&#39;s Law makes this a great trade-off, in favour of easier tasks for users. That&#39;s exactly what more powerful computers should be doing: making the user&#39;s job easier because the computer does more automatically. So while the App Store itself doesn&#39;t handle dependencies, developers can use their existing system to make sure apps ship with everything they need.&lt;/p&gt;
+&lt;p&gt;Updates come through the store, and it&#39;s all well-handled by centralized, reliable online distribution. This isn&#39;t perfect: there&#39;s no user-visible way to roll back if an update breaks something. The user still has to see that there are updates and perform tasks to get them. Google Chrome does this better: the update is downloaded in the background and then just applied in the normal course of events. If it added a &#34;rollback to previous&#34; option it would be almost perfect. The Mac App Store does have the virtue of putting all of the 3rd party software updates in a single spot, though. Wouldn&#39;t it be nice to integrate that with the OS updates too? Why does the user need to know more than one way to get updates?&lt;/p&gt;
+&lt;p&gt;Lastly, payment is very well handled. As my credit card bill shows, it&#39;s &lt;em&gt;too&lt;/em&gt; well handled. You know you&#39;re spending money, but payment is so easy it&#39;s not a hurdle. It takes more steps to pay for a coffee at Starbucks than it does to buy apps.&lt;/p&gt;
+&lt;h1&gt;One Step At A Time&lt;/h1&gt;
+&lt;p&gt;The Mac App Store brings some advancement to consumer package management. It&#39;s better than any other consumer platform right now. There is still room for improvement, but I&#39;m happy that a popular platform is finally improving beyond the user hostile, fully manual 1990&#39;s style.&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Engineering Requirements for Podcasts</title>
+    <link href="http://dangerinc.ca/2011/03/engineering-requirements-for-podcasts.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2011/03/engineering-requirements-for-podcasts.html</id>
+    <updated>2011-03-27T17:04:00-02:30</updated>
+    <content type="html">&lt;p&gt;I listen to a lot of great podcasts. &lt;a href=&#34;http://5by5.tv/&#34;&gt;Dan Benjamin&lt;/a&gt; and &lt;a href=&#34;http://twit.tv/&#34;&gt;Leo Laporte&lt;/a&gt; in particular amaze me with the sheer volume of high-quality podcasts they&#39;re able to produce. But there are some podcasts with great content that I just can&#39;t listen to. Below are some ideas to help avoid losing listeners that &lt;em&gt;want&lt;/em&gt; to hear your content.&lt;/p&gt;
+&lt;p&gt;The first thing you need to make a great podcast is great content. A lot of people are good at this part of the process, getting good talent, with well-defined topics, and a comfortable format. It&#39;s frustrating when some non-content gripe takes me out of the moment, making it hard to enjoy the content.&lt;/p&gt;
+&lt;p&gt;In the software design world there are functional requirements, which describe what the software is supposed to &lt;em&gt;do&lt;/em&gt;: screens, buttons, calculations, etc. In a podcast, the content is the  &#34;function.&#34; Just as important, but often hidden from view are &lt;em&gt;how&lt;/em&gt; software does its job: how fast, how often, how secure, how easy, etc. These are often called &#34;non-functional,&#34; &#34;technical,&#34; or &#34;engineering&#34; requirements. &lt;/p&gt;
+&lt;p&gt;Engineering requirements for podcasts aren&#39;t about the content — they&#39;re about the stuff around &lt;em&gt;how you deliver your content&lt;/em&gt;. Below are some pointers on my engineering requirements for high-quality podcasts. &lt;/p&gt;
+&lt;h1&gt;Get To It&lt;/h1&gt;
+&lt;p&gt;This isn&#39;t radio — no one needs a minute-long intro. We all know which podcast it is: it&#39;s in the ID3 tag, your graphic is covering the screen of the audio player, and the user likely just selected it from a list. Your listener is more likely to have too many podcasts to fit into their spare time, so adding filler time isn&#39;t doing anyone favors.&lt;/p&gt;
+&lt;p&gt;A bad example comes, regrettably, from Leo Laporte&#39;s TWiT podcasts. Leo has a network intro, followed by an individual show intro, followed by a reading of the ID3 tag data, followed by short announcements of the sponsors, followed by a minute or two introducing the hosts and guests. Each is only a few seconds long, but it&#39;s generally 1m30s or 2m until there&#39;s anything that a listener may care about. And 2 minutes is an eternity when you&#39;re crushed on a subway train with nothing else to do but to wait.&lt;/p&gt;
+&lt;p&gt;A great example comes from Dan Benjamin&#39;s 5by5 network. His intros can last 5-10 seconds in total, often at the short end of that. And in an extreme example, he and John Gruber just start with no intro at all on The Talk Show. It&#39;s refreshing.&lt;/p&gt;
+&lt;h1&gt;Don&#39;t Go Crazy With Live Ads&lt;/h1&gt;
+&lt;p&gt;It&#39;s great to hear a skilled announcer read a live ad, and to spice it up with some embellishment. It can get too much when an ad becomes an impromptu testimonial from a guest. Often the guest rambles unprepared for minutes only to tell us that their dog Sparky likes the product. I&#39;m sure the advertisers like this content — it&#39;s free and genuine. But as a listener, there is a limit where we reach for the slider to advance a few minutes.&lt;/p&gt;
+&lt;p&gt;Some bad examples are coming with Audible ads recently. The copy and embellishment is only a minute or two, but then a book recommendation — often unrelated to the show&#39;s topic — can take 5 minutes. If you just &lt;em&gt;happen&lt;/em&gt; to line up with the tastes of the recommender, then it&#39;s decent content. But if it&#39;s unrelated to the podcast content, it&#39;s just a 7 minute boring ad. This is &lt;em&gt;exactly&lt;/em&gt; why many listeners abandoned radio in the first place.&lt;/p&gt;
+&lt;h1&gt;Dynamic Range&lt;/h1&gt;
+&lt;p&gt;The main engineering requirement is audio quality. In 2006 I unsubscribed to many podcasts because the audio quality was low. Since then, the average audio quality of podcasts is stellar. I have only one remaining complaint that can make me hit fast-forward, and that&#39;s excessive dynamic range.&lt;/p&gt;
+&lt;p&gt;I listen to podcasts in one of two ways. One is with earbuds on a subway train, and the other is while driving. In both cases, there is a significant noise floor from the environment. Train noise and road noise are each enough to require jacking the volume on the podcast way up. Unfortunately, if there is a huge dynamic range, that means that laughs and outbursts can just burst eardrums. And no one should need to reach for the volume knob when someone decides to speak softly.&lt;/p&gt;
+&lt;p&gt;The essential requirement is that the user should be able to listen to the podcast without having to touch the volume knob more than once at the start. And this has to be true in a high-noise floor environment like a car. It&#39;s a sin to compress and &#34;volumize&#34; music to the point where you lose dynamic range, but on a mono voice-only talk show it&#39;s a requirement. Get &lt;a href=&#34;http://www.conversationsnetwork.org/levelator&#34;&gt;the Levelator&lt;/a&gt; and try it out.&lt;/p&gt;
+&lt;h1&gt;Produce For Audio First&lt;/h1&gt;
+&lt;p&gt;If you release both an audio and a video version of your podcast, engineer for the audio podcast as the primary product. There shouldn&#39;t be dead audio air, or extended discussions about things &#34;held up for the camera.&#34; The video content should just be purely &lt;em&gt;extra&lt;/em&gt; content, not &lt;em&gt;necessary&lt;/em&gt; content.&lt;/p&gt;
+&lt;p&gt;If the podcast really should be primarily video, then don&#39;t put out an audio feed at all. The few people that want audio only can just download the video and &lt;em&gt;not watch&lt;/em&gt; as it plays. You won&#39;t be continually churning through listeners who find the audio feed, but get annoyed and soon unsubscribe. If you have no plans to make the audio a good standalone product, just don&#39;t release it.&lt;/p&gt;
+&lt;h1&gt;The Listener Is Primary&lt;/h1&gt;
+&lt;p&gt;Above all, think of the experience from the perspective of the listener. Make the listener happy, and worry about other considerations later. If you try to please advertisers at the expense of listeners, you&#39;ll lose both in the end.&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Effort Culture vs. Product Culture</title>
+    <link href="http://dangerinc.ca/2011/03/effort-culture-vs-product-culture.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2011/03/effort-culture-vs-product-culture.html</id>
+    <updated>2011-03-20T03:02:00-02:30</updated>
+    <content type="html">&lt;p&gt;The internal culture of a company determines a great deal about what they produce, who works there, and ultimately how successful they can be in a competitive market. I have a good deal of experience with two very different cultures, each with vastly different results.&lt;/p&gt;
+&lt;p&gt;It&#39;s important for people to know which sort of culture they will succeed in; working against the grain of a company is almost never a good idea.  But it&#39;s also important to spot these cultures because they&#39;re not equally effective.&lt;/p&gt;
+&lt;p&gt;And by &#34;culture&#34; in this context, I mean a population&#39;s most fundamental shared values. There&#39;s rarely a poster on the wall with these values; you have to impute them from what sort of ideas are accepted, rewarded, or discouraged.&lt;/p&gt;
+&lt;h1&gt;Effort Culture&lt;/h1&gt;
+&lt;p&gt;This culture puts a high value on personal effort. Everyone tries to contribute their particular skills to the problems at hand. To use examples from IT, everyone is expected to pitch in if a server goes down.  The cardinal sin is to withhold effort or to criticize another&#39;s effort. Accommodating everyone&#39;s ability to contribute is the big focus of projects.&lt;/p&gt;
+&lt;p&gt;Even if you think someone&#39;s contribution doesn&#39;t help achieve the goal, you are expected to laud their effort. These sorts of places have parties at project completion, even if it&#39;s three years late and four times the budget. Everyone worked hard!&lt;/p&gt;
+&lt;p&gt;Methodology is valuable because it structures who puts in what effort. Consultation is a theme in these organizations, to give everyone a chance to contribute to a project. &#34;On time and on budget&#34; is often the measure of success, as these are measures of contributions, not market reception.&lt;/p&gt;
+&lt;p&gt;Cultures like this tend to deliver products that get by. They accomplish the stated goals, have well-deliberated trade-offs, and will pass regulatory burdens. Mostly because there were three hundred people all contributing a tiny element to the design. But in general, they will be soulless, lowest-common-denominator products. Financial services products, cell phone plans, and many government services all carry the flavour of being made in an effort culture.&lt;/p&gt;
+&lt;h1&gt;Product Culture&lt;/h1&gt;
+&lt;p&gt;This culture puts a high value on the end product. People are only involved to the extent that they can positively affect design or delivery. The cardinal sin here is to bring in arbitrary constraints that negatively affect the end product itself. Delivery of a customer experience is the big focus.&lt;/p&gt;
+&lt;p&gt;These cultures tend to be coarser, less polite, and be filled with thick-skinned people. You are judged by the ideas you accept and argue for. People will judge an idea on its relationship to their product goal, whether or not you took all night to write it up.&lt;/p&gt;
+&lt;p&gt;Delivery of poor products is not lauded along with good products. Teams that produce good products are conspicuously rewarded with more money or freedom, perks, but also expectations. &#34;On time and on budget&#34; is less important than having a successful product in terms of sales.&lt;/p&gt;
+&lt;p&gt;Methodology is only useful if it solves a problem associated with getting out a better product. Each step is filtered through a rigorous pruning, where its cost is evaluated against the benefit it could bring to the product.&lt;/p&gt;
+&lt;p&gt;Cultures like this tend to deliver market-leading products. Many startups begin this way, with a clear product vision. Since there is so little time and money, every action has to be scrupulously evaluated against that goal. They out-design and out-produce large, slow, effort-culture corporations. Even though it is large, Apple looks like a product culture company. &lt;/p&gt;
+&lt;h1&gt;All Cultures Are Not Equal&lt;/h1&gt;
+&lt;p&gt;In an effort culture you are generally rewarded for &lt;em&gt;trying&lt;/em&gt;, rather than objectively &lt;em&gt;succeeding&lt;/em&gt;. Effort cultures celebrate finishing a project no matter how successful. Product cultures tend to expect to post good sales numbers before celebrating. &lt;/p&gt;
+&lt;p&gt;In effort culture companies, I have actually delivered whole products with no measurement to ascertain if the end users used or liked the product. In one such case, I got curious and looked at some logs several months after launch. Less than 1% of the expected users actually used the new product we built. Through a product culture&#39;s lens, that&#39;s a failure.  Not so for effort culture — it was delivered on time and on budget.&lt;/p&gt;
+&lt;p&gt;The effort culture can only produce great products by accident. There is not necessarily a single mind in charge of a product, so they end up with a committee feel. Large financial institutions, with their multitude of regulatory, tax, partner, and (finally) product considerations, produce these sorts of products. Who &lt;em&gt;likes&lt;/em&gt; their investment or bank account products? When you need an advisor to walk you through innumerable confusing product options, then its likely they&#39;re not made with the consumer in mind as much as the company itself. It&#39;s likely that these products are made like that: the consumer experience is just one tiny factor in their creation, not the goal.&lt;/p&gt;
+&lt;h1&gt;Pick Your Poison&lt;/h1&gt;
+&lt;p&gt;Some people are looking to be a small cog in a gigantic machine. They want a 9-5, put in a day&#39;s effort, and get recognized for it, without having to argue about goals and the &#34;right&#34; thing to do. They populate large corporations, which institutionalize that culture.&lt;/p&gt;
+&lt;p&gt;If you want to make &lt;em&gt;great products&lt;/em&gt;, then you will chafe in such an organization. Arguments to overturn established routine and structures will fall on deaf ears.  Since real innovation is disruptive, it makes many people&#39;s efforts redundant — intolerable in an effort culture.&lt;/p&gt;
+&lt;p&gt;It&#39;s not true that all large organizations have effort cultures and that small startups have product cultures. Apple is a counter-example on the one side, and many little Mom and Pop shops are an example on the other. It still takes an assessment of what sorts of activities are rewarded or discouraged.  But if you want to be happy in your organization, it&#39;s vital to correctly diagnose what sort of culture you want, and find an appropriate place with like-minded people.&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Pairing Up For Design</title>
+    <link href="http://dangerinc.ca/2011/03/pairing-up-for-design.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2011/03/pairing-up-for-design.html</id>
+    <updated>2011-03-19T17:22:00-02:30</updated>
+    <content type="html">&lt;p&gt;&#34;Design by committee&#34; is a cliché for poor, soulless design. Consensus among many designers tends to the lowest common denominator, and often lacks a defining central theme.&lt;/p&gt;
+&lt;p&gt;It&#39;s possible to go too far the other way. A single person designing all aspects of a complex solution often leads to uneven maturity within the design. Single designers will concentrate on the parts in their specialty. Very few people are equally good at all the necessary elements.&lt;/p&gt;
+&lt;p&gt;The benefit of a single designer is to focus the design. Focus helps to prune unnecessary bloat — features that don&#39;t serve the primary goal. Focus also results in a unifying theme — a commonality in elements of the design that make a user feel familiar with it, even without having to learn it in detail.&lt;/p&gt;
+&lt;p&gt;The benefit of multiple designers is to supply more knowledge and experience than one designer can provide. &lt;/p&gt;
+&lt;p&gt;There&#39;s a middle ground that is better than either the lone designer, and certainly better than the committee method.&lt;/p&gt;
+&lt;h1&gt;A Better Way&lt;/h1&gt;
+&lt;p&gt;There should be a single brain in charge of a design, aiming to give it a unifying theme.  Certainly in a commercial organization, designs should be formally delegated to designers. In less formal work, design should be someone&#39;s baby. But most of the actual grinding work of design is better done in &lt;strong&gt;pairs&lt;/strong&gt;. Not groups, not threes, but pairs.&lt;/p&gt;
+&lt;p&gt;Having to communicate design ideas to another mind hones the design. If you&#39;ve ever had to teach difficult concepts, you know that the effort of communicating an idea actually helps one to learn the idea better, to plumb conceptual dark corners, and to check its logic. To present something logically so that a mind can grasp it, you realize whether or not you&#39;ve chased down the whole logical structure of the idea yourself. The other person can also help catch dead ends, gaps, and problems.&lt;/p&gt;
+&lt;p&gt;While having to present the ideas to a single (smart!) person is a benefit to working through the idea, the benefit drops off a cliff for each extra person. You only get the benefit of logically organizing idea for presentation once, so that&#39;s gone. The only remaining benefit is that the new audience might find some more flaws — at the relatively high cost of keeping another person up to speed. Adding a fourth or more people provides a tiny marginal benefit, while marginal cost of keeping a network of people informed becomes geometrically more costly.&lt;/p&gt;
+&lt;p&gt;In my experience, adding the &lt;em&gt;right&lt;/em&gt; second person to a design effort returns a huge benefit for a reasonable cost. They have to be a designer themselves and relatively equal in skill. Adding a third or more offers only a marginal benefit for a greatly increased cost, and increases the likelihood of deadlocks and a reduction in focus.&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Navigating the App Store</title>
+    <link href="http://dangerinc.ca/2011/02/navigating-the-app-store.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2011/02/navigating-the-app-store.html</id>
+    <updated>2011-02-19T14:59:00-03:30</updated>
+    <content type="html">&lt;p&gt;The Mac App Store is &lt;em&gt;the&lt;/em&gt; place to send new Mac owners looking for software.  It&#39;s a single place, it handles installs and upgrades, it&#39;s already installed, and it has a critical mass of usable quality software.&lt;/p&gt;
+&lt;p&gt;Sure, there are some version 1.0 problems that I imagine Apple will sort out quickly.  There&#39;s no way to see all installed apps or uninstall them.  There is no wishlist function.  But the major issue I have is something that persists with the iOS app store, and for which Apple seems to have no solution: how to find particular apps that meet your needs.&lt;/p&gt;
+&lt;p&gt;This problem exists on the iOS store too: there are 16 thousand puzzle games, and perhaps 50 really good ones.  And their lists and features aren&#39;t good enough to point them out.  The difference with the iOS store is that the average price for most apps is 99 cents, so a couple of mistaken purchases don&#39;t break the bank.&lt;/p&gt;
+&lt;p&gt;The average price on the Mac App Store will be much higher than 99 cents.  Though many categories are settling in at $9.99, there are plenty that aren&#39;t afraid to charge $30-$60 and higher.  These are generally apps that sell for significantly more outside the app store.  No one wants to try three image editors at $39.99 to find the one that fits.&lt;/p&gt;
+&lt;p&gt;There are techniques to allow the cream of the apps to rise to the top:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;User Ratings/Reviews.&lt;/strong&gt; The App Store has these, although they may not reach critical mass anywhere but in the US.  In Canada, many apps have zero to ten ratings, far below a significant sample.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Editorial Reviews.&lt;/strong&gt; &lt;a href=&#34;http://twit.tv/mbw&#34;&gt;Macbreak Weekly&lt;/a&gt;&#39;s picks, or the NY Times book review, for example.  Let the experts lead us to the good apps.  The &lt;em&gt;Featured&lt;/em&gt; and &lt;em&gt;Staff Picks&lt;/em&gt; within the App Store are too flimsy to serve this concept well.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Word of Mouth.&lt;/strong&gt; This is a grab bag of any external communications medium, where people can let others know of an app they like.  Twitter is a good example.  The App Store&#39;s html pages facilitate this by giving anyone a place to link to.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;But there&#39;s still money on the table here. The App Store tries to encourage all of these techniques in some way or another, but each ends up rather weak.  There is still room for someone to do user ratings better.  Good editorial reviews are still locked away in niche podcasts spread over the net. And that leaves places like twitter (and good old google searching for &#34;image editor mac os x&#34;) pulling a great deal of the weight.  But they&#39;re to spread out, there&#39;s no money in it.&lt;/p&gt;
+&lt;p&gt;It&#39;s worth big money to figure out how to help people navigate through a product search and come up with the right decision.  Some sort of online app finder that&#39;s not in a single niche, and that can combine user review content, expert editorial content, and other metrics to help out &lt;em&gt;anyone&lt;/em&gt; with &lt;em&gt;any app&lt;/em&gt;.  That would be something I would recommend to any Mac user.&lt;/p&gt;</content>
+  </entry>
+  
+  
+
+</feed>

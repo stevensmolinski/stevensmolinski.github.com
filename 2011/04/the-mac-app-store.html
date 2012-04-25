@@ -1,0 +1,586 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Quicksand|Maven+Pro' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="alternate" type="application/atom+xml" title="danger, inc feed" href="/feeds/blog.xml" />
+  <title>danger, inc - The (Mac) App Store</title>
+  <script src="/js/libs/modernizr-2.5.3.min.js"></script>
+  
+</head>
+<body>
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <div id="page">
+    <header id="header">
+      
+        <hgroup id="title-wrapper">
+          <h1 id="title"><a href="/">danger, inc</a></h1>
+          <hr/>
+          <h2 id="subtitle">...not really incorporated</h2>
+        </hgroup>
+      
+    </header>
+    <div id="main-wrapper">
+      
+      <div id="leftcol">
+        
+          <nav id="main-nav"><a
+            id="main-nav-1" href="/">Home</a><a
+            id="main-nav-2" href="/archives.html">Archives</a><a
+            id="main-nav-3" href="/about.html">About</a></nav>
+        
+      </div>
+      <div id="content-wrapper">
+        
+    
+    
+
+<article class="article blogpost">
+  <header>
+    
+    <h1><a href="/2011/04/the-mac-app-store.html">The (Mac) App Store</a></h1>
+    
+  </header>
+  <p>ckage management is an unsolved problem in consumer computing. It's not the only one: there are a ton of unsolved problems in consumer computing. Every call the "family tech support guy" gets is because of an unsolved — or horribly solved — consumer problem. Package management is just an interesting one because Apple is finally taking a crack at it with the Mac App Store.</p>
+<h1>The Landscape</h1>
+<p>Package Management is a system that people use to find, buy and install software, get updates to that software, and otherwise manage their programs.</p>
+<p>Shamefully, the most popular consumer computer systems have had horrible package management. Users have been putting up with bad solutions for years, and many don't even know there are alternatives. Windows provides some standard ways for developers to distribute software, but it's still largely the same system that was used when you mail-ordered software on floppies and painstakingly installed it yourself. It's just moved to the internet.</p>
+<p>Macs have a cleaner way to install software behind the scenes, but it's still something a user has to <em>do</em> and manage on their own. And free unixes have had common repositories accessible over the internet. These hit most of the real needs of a package management system, but they miss on the discovery front, and rarely create a market with payment options.</p>
+<h1>Package Management Anatomy</h1>
+<p>Remember, the goal of a consumer computing system is to enable regular people to do things. If a regular user has to call the "family tech support guy" to use something, then it's a failure. There are several things a package management system should do:</p>
+<ul>
+<li><strong>Be Discoverable.</strong> Regular users have to be able to find what they want. The system fails if users have to decide nerdy things, like 32-bit or 64-bit builds, or green/native thread models.</li>
+<li><strong>Be Trusted.</strong> There can't be malware, tons of ripoffs, or anything else that makes using the package manager risky for an average user. If there are gotchas, the user will phone their family support guy out of fear.</li>
+<li><strong>Handle Dependencies.</strong> Software is built in layers, with user-facing apps relying on several sets of services to work properly. When a user installs some application, they should get every dependency that is required without even knowing it. Dependencies are a developer-level concept, not a user concept.</li>
+<li><strong>Handle Updates.</strong> Developers know when there are updates. The most control a user should have is to decline an update, or roll back to previous if an update doesn't perform properly. An update that can't be undone is a potentially serious impact, which is going to make the user fear performing them.</li>
+<li><strong>Handle Online Distribution</strong>. There are a number of attributes of good online distribution platforms, like Amazon. Allow the user to install the software on all of their machines. Allow the user to re-install in case their machine was wiped out or corrupted. Make the download process not depend on any particular developer's hosting environment.</li>
+<li><strong>Handle Payment.</strong> As a <em>developer</em> I loved the Debian package manager. But there was simply no place in the architecture for payment. The iOS App Store has shown the sort of creativity and innovation you can get if there is a payment system. Free software is great, but you will not want to exclude paid software.</li>
+</ul>
+<h1>The (Mac) App Store</h1>
+<p>The Mac App Store isn't 100% there yet, but it's seriously competitive. Every package management system is somewhat restrictive — automation requires some amount of restrictive rules.</p>
+<p>The Mac App Store is relatively discoverable. There are some editorial sections, a decent search function, and a workable browse function. Each app page has a minimum of material to get an idea about the app — description, changelog, screenshots, reviews. This is more than I ever got from <code>apt-get show</code>.</p>
+<p>The Mac App Store goes a long way towards trust. The iOS store may frustrate some developers with its restrictiveness, but it's paid off for users. Never before have users felt so free to buy or download apps without any research past whether or not the functionality of the app is good. They trust that there is no malware. They trust that the payment system isn't a scam. They trust that they can recover (re-download) the software if something goes wrong.</p>
+<p>Consumer Mac Apps have handled dependencies relatively gracefully for some time. On other systems, the approach has been to install shared components once and have some system for apps to find them. Aside from Apple-delivered frameworks, most Mac Apps just simply ship copies of their dependencies. This takes far more disk space, and can consume more memory. But Moore's Law makes this a great trade-off, in favour of easier tasks for users. That's exactly what more powerful computers should be doing: making the user's job easier because the computer does more automatically. So while the App Store itself doesn't handle dependencies, developers can use their existing system to make sure apps ship with everything they need.</p>
+<p>Updates come through the store, and it's all well-handled by centralized, reliable online distribution. This isn't perfect: there's no user-visible way to roll back if an update breaks something. The user still has to see that there are updates and perform tasks to get them. Google Chrome does this better: the update is downloaded in the background and then just applied in the normal course of events. If it added a "rollback to previous" option it would be almost perfect. The Mac App Store does have the virtue of putting all of the 3rd party software updates in a single spot, though. Wouldn't it be nice to integrate that with the OS updates too? Why does the user need to know more than one way to get updates?</p>
+<p>Lastly, payment is very well handled. As my credit card bill shows, it's <em>too</em> well handled. You know you're spending money, but payment is so easy it's not a hurdle. It takes more steps to pay for a coffee at Starbucks than it does to buy apps.</p>
+<h1>One Step At A Time</h1>
+<p>The Mac App Store brings some advancement to consumer package management. It's better than any other consumer platform right now. There is still room for improvement, but I'm happy that a popular platform is finally improving beyond the user hostile, fully manual 1990's style.</p>
+  <div class="taglist">app store, mac</div>
+  <footer>
+    
+    Posted
+     by Steve 
+     on 2011-04-02 15:12:00
+    
+  </footer>
+</article>
+
+
+
+      </div>
+      <div id="rightcol">
+        
+    
+    
+
+  
+  
+    
+      
+        
+          
+            
+            <div class="supplements">
+              <nav class="archives related">
+                <h1>Related Posts</h1>
+                <ul>
+            
+            
+                <li><a class="archivelink" href="/2011/02/navigating-the-app-store.html">Navigating the App Store</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2011/04/ios-app-updates-are-broken.html">iOS App Updates Are Broken</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+      
+    
+    
+  
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2011/08/lions-legacy-sandboxing.html">Lion's Legacy: Sandboxing</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2011/10/unix-without-a-filesystem.html">Unix Without A Filesystem</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2012/02/why-annual-osx-releases-are-important.html">Why Annual OS X Releases Are Important</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2012/03/hacking-away-at-wimp.html">Hacking Away At WIMP</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2012/03/why-add-a-printer-at-all.html">Why Add A Printer At All</a></li>
+            
+            
+          
+        
+      
+    
+    
+          </ul>
+        </nav>
+      </div>
+    
+  
+
+    <div class="supplements"</a>
+      <nav class="archives">
+  <header><h1>Blog Archives</h1></header>
+  <a class="archivelink" href="/archives.html">All Posts</a>
+  <ul>
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2012/03">March 2012
+        (2)
+      </a></li>
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2012/02">February 2012
+        (1)
+      </a></li>
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2012/01">January 2012
+        (2)
+      </a></li>
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/10">October 2011
+        (2)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/08">August 2011
+        (1)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/06">June 2011
+        (2)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/05">May 2011
+        (2)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/04">April 2011
+        (4)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/03">March 2011
+        (3)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/02">February 2011
+        (1)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+  </ul>
+</nav>
+
+    </div>
+    <div class="supplements">
+      <section>
+        <header><h1>Links</h1></header>
+        <a href="/feeds/blog.xml">Atom Feed</a>
+      </section>
+    </div>
+
+      </div>
+      
+    </div>
+    <footer id="footer">
+      
+      Copyright &copy; 2012 Steven Smolinski.
+      
+    </footer>
+  </div>
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+  <script src="/js/plugins.js"></script>
+  <script src="/js/script.js"></script>
+
+  <script>
+    var _gaq=[['_setAccount','UA-30918530-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>

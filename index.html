@@ -1,0 +1,652 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Quicksand|Maven+Pro' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="alternate" type="application/atom+xml" title="danger, inc feed" href="/feeds/blog.xml" />
+  <title>danger, inc</title>
+  <script src="/js/libs/modernizr-2.5.3.min.js"></script>
+  
+</head>
+<body>
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <div id="page">
+    <header id="header">
+      
+        <hgroup id="title-wrapper">
+          <h1 id="title"><a href="/">danger, inc</a></h1>
+          <hr/>
+          <h2 id="subtitle">...not really incorporated</h2>
+        </hgroup>
+      
+    </header>
+    <div id="main-wrapper">
+      
+      <div id="leftcol">
+        
+          <nav id="main-nav"><a
+            id="main-nav-1" href="/">Home</a><a
+            id="main-nav-2" href="/archives.html">Archives</a><a
+            id="main-nav-3" href="/about.html">About</a></nav>
+        
+      </div>
+      <div id="content-wrapper">
+        
+
+  
+  
+  
+
+<article class="article blogpost">
+  <header>
+    
+    <h1><a href="/2012/03/hacking-away-at-wimp.html">Hacking Away At WIMP</a></h1>
+    
+  </header>
+  <p>The WIMP<sup><a name="wimp-defn-origin" href="#wimp-defn">1</a></sup> paradigm for computer interfaces has had a good run. Since 1980 virtually all interface advancements have centered around it. </p>
+<p>There are other user interface paradigms around, but they're not where the action is. I spend a lot of time on the command line, but I can't say it has evolved a whole lot, at least among the unixes. The people that spend all their time in shells seem to prefer them to stay just as they are.</p>
+<p>But recently the industry has been evolving beyond WIMP. I want to check in and see how far we are from WIMP, and if there's a clear evolution taking place. Since mobile is where the future lies, let's use that as the lens.</p>
+<p>First, mobile OSes have also largely dispensed with traditional windows. Windows use significant screen space and enable having multiple applications running on screen at once. On a mobile device, both screen real estate and memory are scarce enough to jettison windows.</p>
+<p>Icons fit well with touch-based interfaces, and so they've largely survived. They might be called tiles and they might be animated, but they're still icons.</p>
+<p>Menus have changed on mobile OSes, but they still exist. Mobile computing has a sense of urgency absent from the desktop. Users get more easily frustrated if they have to hunt 3 levels deep in a hierarchy to find a function they need. So while there are some menu-like UI constructions on mobile OSes, they seem largely deprecated — and apps that make extensive use of them are generally poor.</p>
+<p>Ever since PalmOS the writing has been on the wall for the pointer. With styluses or touch-based interfaces, you can still point at things, but it's directly with a finger or stylus instead of indirectly with a mouse, joystick, or touchpad. Without a pointer you give up some things like hover events, but a great many pointer conceits remain, such as buttons and clicks. Indirect pointers are gone, but the entire concept isn't destroyed. Touch replaces Pointer, but it's an evolution rather than a revolution.</p>
+<h1>FIBT?</h1>
+<p>Instead of WIMP, are mobile OSes upgrading to FIBT?</p>
+<ul>
+<li><strong>Fullscreen</strong>. Instead of Windows, OSes are investigating different ways of having fullscreen applications. Either one at time, stacked like cards, or even two at a time side-by-side, but no windowing chrome.</li>
+<li><strong>Icons</strong>. Icons exist, but are now touch targets. Largely the same.</li>
+<li><strong>Buttons</strong>. Menus are flattened out into more intuitive buttons prominently placed in the application. Many interface elements become touchable, which makes them essentially buttons.</li>
+<li><strong>Touch</strong>. Direct manipulation instead of indirect, as with a Pointer.</li>
+</ul>
+<h1>Human Interfaces</h1>
+<p>I'm sure there's more to come, and I haven't even mentioned voice. Voice is still too new to be a real force — although there's a clearly a future in it. WIMP and FIBT are <em>graphical</em> user interfaces while voice (and Kinect-like gestures) are in a new category of interfaces.</p>
+<p>Is there even a good name for these? Perhaps they are <em>human</em> interfaces, where computers listen and watch what we do to interpret it. It reverses all earlier <em>computer</em> interfaces where the humans have to learn how to work the computer.</p>
+<h1>Moving On</h1>
+<p>In any case, it is a relief that the industry is moving on. There were problems with WIMP that couldn't be solved from within. How many interface rules do we have to compensate for the fact that indirect pointing devices are less accurate than touch? It's a better solution to replace it with touch than to pour more research in interface rules to compensate.</p>
+<hr />
+<p class="footnote"><a name="wimp-defn" href="#wimp-defn-origin">1</a> WIMP stands for "Windows, Icons, Menus, Pointer". <a href="#wimp-defn-origin" style="text-decoration: none;">↺</a></p>
+  <div class="taglist">ios, mac</div>
+  <footer>
+    
+    Posted
+     by Steve 
+     on 2012-03-09 20:15:00
+    
+  </footer>
+</article>
+
+
+  <hr class="article-separator"/>
+  
+
+  
+  
+  
+
+<article class="article blogpost">
+  <header>
+    
+    <h1><a href="/2012/03/why-add-a-printer-at-all.html">Why Add A Printer At All</a></h1>
+    
+  </header>
+  <p>Linus Torvalds <a href="https://plus.google.com/102150693225130002912/posts/1vyfmNCYpi5">recently vented on Google+</a> about needing the root password on a SuSE install to add a printer. He's not wrong, but I don't think he goes far enough.<sup><a name="printer-aside-origin" href="#printer-aside">1</a></sup></p>
+<p>The idea of "adding" a printer comes from the days when printers  were actual hardware peripherals, like a sound card or a mouse. You'd need some privileges to add or change hardware, generally because it meant new drivers had to be loaded into the operating system kernel. A buggy driver could bring down the whole system.  So to protect the system, loading kernel drivers — and thus changing any hardware — were made to require higher privileges.</p>
+<p>Today, a printer is another service on the network. A printer is a network service, complete with an IP address, where you send it bits, and it sends bits back to you. And hopefully, it prints some of the bits onto dead trees. <em>Using a new printer is more like using a new web site than it is like adding hardware.</em></p>
+<p>Just as you don't need to "add" facebook to your browser in order to use it, you shouldn't have to "add" a network printer to your system in order to use it. Linus is annoyed that it takes root privileges on SuSE to add a printer, but I'm annoyed every time I need to add a printer at all. It reminds me how little the software side of printing has advanced, and how far it has to go.</p>
+<hr />
+<p class="footnote"><sup><a name="printer-aside" href="#printer-aside-origin">1</a></sup>As an aside, it's telling that a number of Linus's responders claimed the system is "working as intended", suggesting that fiddling with <code>sudo</code> or <code>/etc/groups</code> is the "linux way" to enable such things. This view of the "linux way" as protecting the arbitrary rules of the system instead of designing for the end user is why I don't run linux on my machines any longer. But that's another post. <a href="#printer-aside-origin" style="text-decoration: none;">↺</a></p>
+  <div class="taglist">technews, mac</div>
+  <footer>
+    
+    Posted
+     by Steve 
+     on 2012-03-04 13:15:00
+    
+  </footer>
+</article>
+
+
+  <hr class="article-separator"/>
+  
+
+  
+  
+  
+
+<article class="article blogpost">
+  <header>
+    
+    <h1><a href="/2012/02/why-annual-osx-releases-are-important.html">Why Annual OS X Releases Are Important</a></h1>
+    
+  </header>
+  <p><a href="http://daringfireball.net/2012/02/mountain_lion">Mountain Lion</a> will be the first release in a new annual schedule for OS X. Like many of Apple's moves it's initially surprising, but hindsight makes it seem obvious. I'm sure there are several benefits to an annual release, but I would propose that iCloud may be the largest.</p>
+<p>We know from <a href="http://www.macrumors.com/2012/02/14/apple-ceo-tim-cook-speaks-at-goldman-sachs-technology-conference/">Tim Cook's comments</a> that he views iCloud as a "strategy for the next decade or more". Rolling out an iCloud service doesn't just require server code and a giant data center, it also means client-side code in every Apple computing device. And it's not just an app: given how iCloud services are tightly integrated into the operating systems, an iCloud service also means an update to iOS and OS X.</p>
+<h1>More like Documents <em>Only</em> in the Cloud</h1>
+<p>We have an example of an iCloud service that was launched without coordinated support from iOS and OS X, and it was ugly. Documents in the Cloud launched only with iOS support. Since Apple hates to describe features they <em>don't</em> support, they didn't volunteer that there was no support in OS X. Documents would sync between iPads and iPhones, but not OS X computers. At best you could manually access the document via Apple's web site. It was a glaring omission, and made Documents in the Cloud nearly useless for a lot of daily tasks.</p>
+<p>This lack of integration baffled reviewers and users alike. Apple usually shoots to delight customers, not to baffle them. It didn't "just work". Worse, it will have been close to 9 months before OS X gets Documents in the Cloud capability.</p>
+<h1>iCloud Requires Coordination</h1>
+<p>A yearly OS X release schedule allows Apple to coordinate iCloud service releases with operating system releases. Any framework updates to support new iCloud functionality can be baked into iOS and OS X and launched together in coordination with the service. The closer the releases are, the more seamless the iCloud service will appear. And if it's not seamless, Apple won't be able to win back customer trust from the last several years of janky network services.</p>
+  <div class="taglist">mac</div>
+  <footer>
+    
+    Posted
+     by Steve 
+     on 2012-02-26 19:50:00
+    
+  </footer>
+</article>
+
+
+  <hr class="article-separator"/>
+  
+
+  
+  
+  
+
+<article class="article blogpost">
+  <header>
+    
+    <h1><a href="/2012/01/circumventing-it.html">Circumventing IT</a></h1>
+    
+  </header>
+  <p>I've been watching a trend in software that's really significant. The potential size of the market is as large as the discontent that business units have with their internal IT departments. I'm talking about cloud services that target the business units themselves, not their saurian Enterprise IT department.</p>
+<p>Take Salesforce. Their <a href="http://wordpress.salesforce.com/images/salesforce_logo.png">logo</a> emphasizes the "No Software" concept because the single most important part of their model is that you don't <em>need</em> Enterprise IT.</p>
+<h1>Don't Ask, Don't Tell</h1>
+<p>Salesforce helped establish cloud delivery of software years ago. As cloud services become more capable, the same technique is being applied to more categories of business software. And the model itself is improving. The key is that you should be able to deploy the solution without asking IT for permission.</p>
+<p>You couldn't do this years ago because you needed to deploy software on PCs in the enterprise, which meant you needed IT. The web and HTTPS solved that problem. The most recent limiting factor was needing IT for data integration. But modern cloud services have agents that can run on someone's laptop and use HTTPS to send data from excel files or a connection to an internal database. Sure, it circumvents IT controls and audit requirements, but it also circumvents long, expensive IT projects. And it's better to ask forgiveness than permission.</p>
+<h1>The Vendors Know</h1>
+<p>The vendors of this style of software know they are enabling business units directly. They don't advertise to IT departments. Their sales pitch is aimed directly at non-technical users of the service: easy installation, user-administered, and never using the words "Enterprise IT". Instead of responding to RFPs and attending bake-offs to check off features, vendors have self-service web ordering systems and take business Vice Presidents to lunch and ask why they're letting IT kick them in the balls.</p>
+<p>Pricing is also changing to be more business friendly. Enterprise IT departments will generally have a heavyweight procurement process that takes months to sign a contract, involving complex licensing with CPU-equivalents, 22% per year annual maintenance, yadda yadda. But with these new services, it's $x/month for a seat, period. It's a pricing model regular business users can calculate, project, and most importantly, pay out of their own budget.</p>
+<p>This model will be more successful the more Enterprise IT sucks.    And it will continue to suck for a number of years, lumbering along towards its own extinction. There's a new future of enterprise IT — with smaller, better adapted mammals instead of dinosaurs. But that's a topic for another day.</p>
+  <div class="taglist">corp</div>
+  <footer>
+    
+    Posted
+     by Steve 
+     on 2012-01-24 19:51:00
+    
+  </footer>
+</article>
+
+
+  <hr class="article-separator"/>
+  
+
+  
+  
+  
+
+<article class="article blogpost">
+  <header>
+    
+    <h1><a href="/2012/01/rip-general-purpose-computing-again.html">RIP General Purpose Computing (Again)</a></h1>
+    
+  </header>
+  <p>Every time Apple makes a big move, tech nerds announce the impending death of "general purpose" computing at Apple's hands.</p>
+<p>Well, I have a newsflash: Apple's products are going to cause increasing worry about the death of personal computing, because Apple will increasingly make products for people to <em>use</em>, rather than to <em>compute</em> with.</p>
+<h1>Normal people don't "compute"</h1>
+<p>The "general purpose" computer is user-programmable, or can have arbitrary programs installed. Techies care deeply about this level of control. Normal people don't want to program, and don't care where the programs come from, so long as they do the right things.</p>
+<p>Normal people don't "compute" as such. They want to achieve specific non-computer goals like chatting with friends and seeing pictures of family. They talk, they shop, they read, they play and create. Normal people don't care if the mechanism is a general purpose computer or a ziplock full of unicorn dust.</p>
+<p>Techies want to "compute". This means to experiment, play, check out leading edge capabilities, and search for new computer-powered capabilities they might like to use in their lives. Normal people don't search for new things to do on a computer — they have real-world goals, and see if a device can help accomplish any of them.</p>
+<h1>Apple Targets Normal People</h1>
+<p>Note that normal people require a streamlined platform that is fit-to-task. Techies require a platform with nearly unlimited flexibility. When designing products, these goals are often incompatible.</p>
+<p>Apple wants to make products that normal people use to take care of normal people's tasks. When the usability for normal people clashes with a general purpose attribute, they will choose the normal user. The result is that newer Apple products will look less and less like general purpose computers as they become better tools for normal people.</p>
+<p>This doesn't mean the death of general purpose computing. It just means the death of pushing general purpose computers on normal people who don't want or need them.</p>
+  <div class="taglist">technews</div>
+  <footer>
+    
+    Posted
+     by Steve 
+     on 2012-01-10 20:42:00
+    
+  </footer>
+</article>
+
+
+  <hr class="article-separator"/>
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+      </div>
+      <div id="rightcol">
+        
+<div class="supplements intro"><p>I'm Steve. I'm too wordy for <a href="http://twitter.com/dangersteve">Twitter</a>, too
+cool for Facebook, and too lazy to leave the couch. You can reach me at
+<a href="mailto:comments@dangerinc.ca">comments@dangerinc.ca</a>.</p></div>
+<div class="supplements"><nav class="archives">
+  <header><h1>Blog Archives</h1></header>
+  <a class="archivelink" href="/archives.html">All Posts</a>
+  <ul>
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2012/03">March 2012
+        (2)
+      </a></li>
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2012/02">February 2012
+        (1)
+      </a></li>
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2012/01">January 2012
+        (2)
+      </a></li>
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/10">October 2011
+        (2)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/08">August 2011
+        (1)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/06">June 2011
+        (2)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/05">May 2011
+        (2)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/04">April 2011
+        (4)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/03">March 2011
+        (3)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+      <li><a class="archivelink" href="/archives.html#2011/02">February 2011
+        (1)
+      </a></li>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+  
+  </ul>
+</nav>
+</div>
+<div class="supplements">
+  <section>
+    <header><h1>Links</h1></header>
+    <a href="/feeds/blog.xml">Atom Feed</a>
+  </section>
+</div>
+
+      </div>
+      
+    </div>
+    <footer id="footer">
+      
+      Copyright &copy; 2012 Steven Smolinski.
+      
+    </footer>
+  </div>
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+  <script src="/js/plugins.js"></script>
+  <script src="/js/script.js"></script>
+
+  <script>
+    var _gaq=[['_setAccount','UA-30918530-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>
