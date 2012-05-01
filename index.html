@@ -50,6 +50,42 @@
 <article class="article blogpost">
   <header>
     
+    <h1><a href="/2012/04/belated-praise-for-launchd.html">Belated Praise for Launchd</a></h1>
+    
+  </header>
+  <p>This is way behind the times, but I recently had to automate a task on Mac OS X, and decided to deploy it using <code>launchd</code> instead of <code>cron</code>. I expected to find it an XML-enabled <code>cron</code> clone, or worse. I was happily very wrong.</p>
+<h1>The Good</h1>
+<p>The first surprise was a set of relatively good man pages. They don't contain every single detail, but some experimentation and some <a href="http://stackexchange.com/">stack exchange</a> got the job done.</p>
+<p><code>Launchd</code> improves on <code>cron</code> for deployment: one file per job is an improvement over the <code>crontab</code>. I have implemented a similar system over <code>cron</code> before, where you drop individual <code>crontab</code>-formatted files into a directory, and they're all picked up and added into the user's <code>crontab</code> file. It's nice to get that for free with <code>launchd</code>.</p>
+<p>Apple also implemented far more event triggers than <code>cron</code>, which only implements a clock. <code>Launchd</code> replaces <code>crond</code>, <code>inetd</code>, and most importantly to me, filesystem event triggers.</p>
+<p>There are also configuration elements for a few practices that were commonly done in code. For example, <code>stdout</code> and <code>stderr</code> redirection to a file, so you don't have to do that sort of magic in your program. You can configure the working directory or <code>chroot</code> of your program instead of being dumped into <code>/</code>, which is nice. And, if it's running under the system, you can configure the user and group that the program should use.</p>
+<p>All this means that one can write a very simple bash script instead of a cron-specific, boilerplate-filled mess. It's easy to make it so the script can be run interactively when needed, without adding too many options.</p>
+<h1>The Bad</h1>
+<p>Mac OS X's default configuration file format is the plist. It's XML and it takes a good long time to say anything. I'm not crazy about it, compared with formats that are friendlier to type. Grudgingly I'll admit it's not too painful to use XCode to make them, since you don't have to remember the boilerplate or schema.</p>
+<h1>The Ugly?</h1>
+<p>I don't have enough experience yet with it to have anything ugly to report. It's quite possible I'll never get enough experience with it, as I expect to write more code for servers than clients, and I historically have preferred non-Darwin unixes for server duties.</p>
+<p>But I can say that I will miss some of the flexibility of <code>launchd</code> the next time I find myself using <code>cron</code> to schedule a job when I really want a filesystem-based trigger.</p>
+  <div class="taglist">mac, dev</div>
+  <footer>
+    
+    Posted
+     by Steve 
+     on 2012-04-30 20:20:00
+    
+  </footer>
+</article>
+
+
+  <hr class="article-separator"/>
+  
+
+  
+  
+  
+
+<article class="article blogpost">
+  <header>
+    
     <h1><a href="/2012/04/dont-hate-the-customer.html">Don't Hate The Customer</a></h1>
     
   </header>
@@ -187,36 +223,6 @@
 
   
   
-  
-
-<article class="article blogpost">
-  <header>
-    
-    <h1><a href="/2012/01/circumventing-it.html">Circumventing IT</a></h1>
-    
-  </header>
-  <p>I've been watching a trend in software that's really significant. The potential size of the market is as large as the discontent that business units have with their internal IT departments. I'm talking about cloud services that target the business units themselves, not their saurian Enterprise IT department.</p>
-<p>Take Salesforce. Their <a href="http://wordpress.salesforce.com/images/salesforce_logo.png">logo</a> emphasizes the "No Software" concept because the single most important part of their model is that you don't <em>need</em> Enterprise IT.</p>
-<h1>Don't Ask, Don't Tell</h1>
-<p>Salesforce helped establish cloud delivery of software years ago. As cloud services become more capable, the same technique is being applied to more categories of business software. And the model itself is improving. The key is that you should be able to deploy the solution without asking IT for permission.</p>
-<p>You couldn't do this years ago because you needed to deploy software on PCs in the enterprise, which meant you needed IT. The web and HTTPS solved that problem. The most recent limiting factor was needing IT for data integration. But modern cloud services have agents that can run on someone's laptop and use HTTPS to send data from excel files or a connection to an internal database. Sure, it circumvents IT controls and audit requirements, but it also circumvents long, expensive IT projects. And it's better to ask forgiveness than permission.</p>
-<h1>The Vendors Know</h1>
-<p>The vendors of this style of software know they are enabling business units directly. They don't advertise to IT departments. Their sales pitch is aimed directly at non-technical users of the service: easy installation, user-administered, and never using the words "Enterprise IT". Instead of responding to RFPs and attending bake-offs to check off features, vendors have self-service web ordering systems and take business Vice Presidents to lunch and ask why they're letting IT kick them in the balls.</p>
-<p>Pricing is also changing to be more business friendly. Enterprise IT departments will generally have a heavyweight procurement process that takes months to sign a contract, involving complex licensing with CPU-equivalents, 22% per year annual maintenance, yadda yadda. But with these new services, it's $x/month for a seat, period. It's a pricing model regular business users can calculate, project, and most importantly, pay out of their own budget.</p>
-<p>This model will be more successful the more Enterprise IT sucks.    And it will continue to suck for a number of years, lumbering along towards its own extinction. There's a new future of enterprise IT — with smaller, better adapted mammals instead of dinosaurs. But that's a topic for another day.</p>
-  <div class="taglist">corp</div>
-  <footer>
-    
-    Posted
-     by Steve 
-     on 2012-01-24 19:51:00
-    
-  </footer>
-</article>
-
-
-  <hr class="article-separator"/>
-  
 
   
   
@@ -303,9 +309,13 @@ cool for Facebook, and too lazy to leave the couch. You can reach me at
     
       
       <li><a class="archivelink" href="/archives.html#2012/04">April 2012
-        (1)
+        (2)
       </a></li>
       
+    
+    
+    
+  
     
     
     

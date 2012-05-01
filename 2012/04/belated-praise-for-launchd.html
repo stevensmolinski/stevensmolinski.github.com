@@ -12,7 +12,7 @@
   <link href='http://fonts.googleapis.com/css?family=Quicksand|Maven+Pro' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/style.css">
   <link rel="alternate" type="application/atom+xml" title="danger, inc feed" href="/feeds/blog.xml" />
-  <title>danger, inc - That's Fine For Merlin</title>
+  <title>danger, inc - Belated Praise for Launchd</title>
   <script src="/js/libs/modernizr-2.5.3.min.js"></script>
   
 </head>
@@ -48,20 +48,27 @@
 <article class="article blogpost">
   <header>
     
-    <h1><a href="/2011/06/thats-fine-for-merlin.html">That's Fine For Merlin</a></h1>
+    <h1><a href="/2012/04/belated-praise-for-launchd.html">Belated Praise for Launchd</a></h1>
     
   </header>
-  <p>Merlin Mann's <a href="http://www.webstock.org.nz/talks/speakers/merlin-mann/scared-shitless-how-i-mostly-learned-love-being-af/">speeches</a> and <a href="http://5by5.tv/b2w/">podcasts</a> about the struggle of creation are often frenetic but wonderful. I can't decide if he's giving us the speech, or if he's delivering it to himself while we listen in. It's obvious that creation isn't sort of abstract study for him. He speaks from hard-won knowledge. He's created <a href="http://www.kungfugrippe.com/archive">many</a> <a href="http://www.kungfugrippe.com/post/5201422193/ubi-sunt">wonderful</a> <a href="http://www.43folders.com/2004/09/03/introducing-the-hipster-pda">things</a>, and just as <a href="http://www.43folders.com/2011/04/22/cranking">famously</a> <em>failed</em> to create some wonderful things.</p>
-<p>My most impactful advice to friends were all lessons that I had learned the hard way. They were so well polished because I had run through the words many times. The words were spinning around my mind in the shower, on the drive home, in front of the TV, and when I should have been working. Some of Merlin's lessons sound so polished you know he must be living them.</p>
-<p>Merlin's main lesson is also his most inspiring trait: tenacity.  He's still at it. He's read all the books, and heard all the platitudes. For a time he even wrote those platitudes on <a href="http://43folders.com/">43folders.com</a> — before its liberation. And as a child of the  productivity industry, he'll tell you that it comes down to hard work.</p>
-<p>That's the voice of experience. Of persistence. Of trying one silver bullet after another and finding they're all just balls of lead.</p>
-<p>Even though there are a thousand ways to illustrate, it's still a single lesson to learn. Merlin can cover it over and over again, in different ways, for hours. It's redundant but never boring, and if you struggle with creation the lesson is something you can't hear too often. It may be the only real lesson you need to learn, <em>if you really learn it.</em> It's <strong>to pick something actually important and then <em>do</em> the hell out of it.</strong></p>
-  <div class="taglist">life, merlin</div>
+  <p>This is way behind the times, but I recently had to automate a task on Mac OS X, and decided to deploy it using <code>launchd</code> instead of <code>cron</code>. I expected to find it an XML-enabled <code>cron</code> clone, or worse. I was happily very wrong.</p>
+<h1>The Good</h1>
+<p>The first surprise was a set of relatively good man pages. They don't contain every single detail, but some experimentation and some <a href="http://stackexchange.com/">stack exchange</a> got the job done.</p>
+<p><code>Launchd</code> improves on <code>cron</code> for deployment: one file per job is an improvement over the <code>crontab</code>. I have implemented a similar system over <code>cron</code> before, where you drop individual <code>crontab</code>-formatted files into a directory, and they're all picked up and added into the user's <code>crontab</code> file. It's nice to get that for free with <code>launchd</code>.</p>
+<p>Apple also implemented far more event triggers than <code>cron</code>, which only implements a clock. <code>Launchd</code> replaces <code>crond</code>, <code>inetd</code>, and most importantly to me, filesystem event triggers.</p>
+<p>There are also configuration elements for a few practices that were commonly done in code. For example, <code>stdout</code> and <code>stderr</code> redirection to a file, so you don't have to do that sort of magic in your program. You can configure the working directory or <code>chroot</code> of your program instead of being dumped into <code>/</code>, which is nice. And, if it's running under the system, you can configure the user and group that the program should use.</p>
+<p>All this means that one can write a very simple bash script instead of a cron-specific, boilerplate-filled mess. It's easy to make it so the script can be run interactively when needed, without adding too many options.</p>
+<h1>The Bad</h1>
+<p>Mac OS X's default configuration file format is the plist. It's XML and it takes a good long time to say anything. I'm not crazy about it, compared with formats that are friendlier to type. Grudgingly I'll admit it's not too painful to use XCode to make them, since you don't have to remember the boilerplate or schema.</p>
+<h1>The Ugly?</h1>
+<p>I don't have enough experience yet with it to have anything ugly to report. It's quite possible I'll never get enough experience with it, as I expect to write more code for servers than clients, and I historically have preferred non-Darwin unixes for server duties.</p>
+<p>But I can say that I will miss some of the flexibility of <code>launchd</code> the next time I find myself using <code>cron</code> to schedule a job when I really want a filesystem-based trigger.</p>
+  <div class="taglist">mac, dev</div>
   <footer>
     
     Posted
      by Steve 
-     on 2011-06-16 20:55:00
+     on 2012-04-30 20:20:00
     
   </footer>
 </article>
@@ -87,7 +94,7 @@
                 <ul>
             
             
-                <li><a class="archivelink" href="/2011/05/habit-forming.html">Habit Forming</a></li>
+                <li><a class="archivelink" href="/2011/02/navigating-the-app-store.html">Navigating the App Store</a></li>
             
             
           
@@ -96,21 +103,98 @@
     
       
         
+          
+            
+                <li><a class="archivelink" href="/2011/04/the-mac-app-store.html">The (Mac) App Store</a></li>
+            
+            
+          
+        
       
     
       
         
           
             
-                <li><a class="archivelink" href="/2011/10/dragons-lair-driving.html">Dragon's Lair Driving</a></li>
+                <li><a class="archivelink" href="/2011/08/lions-legacy-sandboxing.html">Lion's Legacy: Sandboxing</a></li>
             
             
           
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2011/10/unix-without-a-filesystem.html">Unix Without A Filesystem</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2012/02/why-annual-osx-releases-are-important.html">Why Annual OS X Releases Are Important</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2012/03/hacking-away-at-wimp.html">Hacking Away At WIMP</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2012/03/why-add-a-printer-at-all.html">Why Add A Printer At All</a></li>
+            
+            
+          
+        
+      
+    
+      
         
       
     
     
   
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2011/03/pairing-up-for-design.html">Pairing Up For Design</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2011/05/out-of-scope.html">Out Of Scope</a></li>
+            
+            
+          
+        
+      
     
       
         

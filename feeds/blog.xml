@@ -6,7 +6,7 @@
   <link href="http://dangerinc.ca/"/>
   <link rel="self" href="http://dangerinc.ca/feeds/blog.xml"/>
   
-  <updated>2012-04-26T17:05:00-02:30</updated>
+  <updated>2012-04-30T20:20:00-02:30</updated>
   <author>
     <name>Steven Smolinski</name>
   </author>
@@ -17,6 +17,30 @@
   <logo>/apple-touch-icon-57x57-precomposed.png</logo>
   <rights>Copyright 2012 Steven Smolinski</rights>
 
+  
+  
+  <entry>
+    <title>Belated Praise for Launchd</title>
+    <link href="http://dangerinc.ca/2012/04/belated-praise-for-launchd.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2012/04/belated-praise-for-launchd.html</id>
+    <updated>2012-04-30T20:20:00-02:30</updated>
+    <content type="html">&lt;p&gt;This is way behind the times, but I recently had to automate a task on Mac OS X, and decided to deploy it using &lt;code&gt;launchd&lt;/code&gt; instead of &lt;code&gt;cron&lt;/code&gt;. I expected to find it an XML-enabled &lt;code&gt;cron&lt;/code&gt; clone, or worse. I was happily very wrong.&lt;/p&gt;
+&lt;h1&gt;The Good&lt;/h1&gt;
+&lt;p&gt;The first surprise was a set of relatively good man pages. They don&#39;t contain every single detail, but some experimentation and some &lt;a href=&#34;http://stackexchange.com/&#34;&gt;stack exchange&lt;/a&gt; got the job done.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Launchd&lt;/code&gt; improves on &lt;code&gt;cron&lt;/code&gt; for deployment: one file per job is an improvement over the &lt;code&gt;crontab&lt;/code&gt;. I have implemented a similar system over &lt;code&gt;cron&lt;/code&gt; before, where you drop individual &lt;code&gt;crontab&lt;/code&gt;-formatted files into a directory, and they&#39;re all picked up and added into the user&#39;s &lt;code&gt;crontab&lt;/code&gt; file. It&#39;s nice to get that for free with &lt;code&gt;launchd&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Apple also implemented far more event triggers than &lt;code&gt;cron&lt;/code&gt;, which only implements a clock. &lt;code&gt;Launchd&lt;/code&gt; replaces &lt;code&gt;crond&lt;/code&gt;, &lt;code&gt;inetd&lt;/code&gt;, and most importantly to me, filesystem event triggers.&lt;/p&gt;
+&lt;p&gt;There are also configuration elements for a few practices that were commonly done in code. For example, &lt;code&gt;stdout&lt;/code&gt; and &lt;code&gt;stderr&lt;/code&gt; redirection to a file, so you don&#39;t have to do that sort of magic in your program. You can configure the working directory or &lt;code&gt;chroot&lt;/code&gt; of your program instead of being dumped into &lt;code&gt;/&lt;/code&gt;, which is nice. And, if it&#39;s running under the system, you can configure the user and group that the program should use.&lt;/p&gt;
+&lt;p&gt;All this means that one can write a very simple bash script instead of a cron-specific, boilerplate-filled mess. It&#39;s easy to make it so the script can be run interactively when needed, without adding too many options.&lt;/p&gt;
+&lt;h1&gt;The Bad&lt;/h1&gt;
+&lt;p&gt;Mac OS X&#39;s default configuration file format is the plist. It&#39;s XML and it takes a good long time to say anything. I&#39;m not crazy about it, compared with formats that are friendlier to type. Grudgingly I&#39;ll admit it&#39;s not too painful to use XCode to make them, since you don&#39;t have to remember the boilerplate or schema.&lt;/p&gt;
+&lt;h1&gt;The Ugly?&lt;/h1&gt;
+&lt;p&gt;I don&#39;t have enough experience yet with it to have anything ugly to report. It&#39;s quite possible I&#39;ll never get enough experience with it, as I expect to write more code for servers than clients, and I historically have preferred non-Darwin unixes for server duties.&lt;/p&gt;
+&lt;p&gt;But I can say that I will miss some of the flexibility of &lt;code&gt;launchd&lt;/code&gt; the next time I find myself using &lt;code&gt;cron&lt;/code&gt; to schedule a job when I really want a filesystem-based trigger.&lt;/p&gt;</content>
+  </entry>
+  
   
   
   <entry>
