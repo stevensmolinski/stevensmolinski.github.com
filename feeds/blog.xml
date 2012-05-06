@@ -6,7 +6,7 @@
   <link href="http://dangerinc.ca/"/>
   <link rel="self" href="http://dangerinc.ca/feeds/blog.xml"/>
   
-  <updated>2012-04-30T20:20:00-02:30</updated>
+  <updated>2012-05-02T22:46:00-02:30</updated>
   <author>
     <name>Steven Smolinski</name>
   </author>
@@ -17,6 +17,35 @@
   <logo>/apple-touch-icon-57x57-precomposed.png</logo>
   <rights>Copyright 2012 Steven Smolinski</rights>
 
+  
+  
+  <entry>
+    <title>First-Order Management</title>
+    <link href="http://dangerinc.ca/2012/05/first-order-management.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2012/05/first-order-management.html</id>
+    <updated>2012-05-02T22:46:00-02:30</updated>
+    <content type="html">&lt;p&gt;The great thing about learning a principle is applying it to new and novel problems. I often get to apply principles from system architecture to my newer challenges in organizational and management problems.&lt;/p&gt;
+&lt;p&gt;I have recently been thinking about how principles in performance optimization of programs can sometimes apply to the performance of people. I&#39;ll introduce the principle as I learned it, and then apply it to a common management problem.&lt;/p&gt;
+&lt;h1&gt;Optimization Is Hard&lt;/h1&gt;
+&lt;p&gt;There are a class of very common errors that developers often make when diagnosing performance problems. A well-meaning developer will hook up a profiler to a problematic bit of code to see what routines are taking too much time. They&#39;ll pick a routine that has a large  percent of runtime, and try to tweak the code to get it to run faster. Many of these tweaks only work for special case data, or on special case hardware, or need special compiler treatment. And often they only provide a few percentage points of improvement.&lt;/p&gt;
+&lt;p&gt;The experienced developers have learned that there is a way to get much better improvements over a larger set of circumstances. Algorithmic and architecture changes regularly offer improvements an order of magnitude better than the original solution. The answer to a slow piece of code is often not to run it at all. As a simplified example, instead of speeding up ten slow database calls, it may be possible to rewrite the program to just use one call, or even eliminate runtime database lookups entirely.&lt;/p&gt;
+&lt;p&gt;The problem with the profiler method is &lt;em&gt;using a solution that&#39;s easy to measure, but not the most impactful&lt;/em&gt;. A profiler won&#39;t tell you about the health of your algorithm or architecture. It won&#39;t reveal a new O(n log n) solution to your problem instead of the O(n**2) one that you&#39;re trying to speed up.&lt;/p&gt;
+&lt;h1&gt;The Principle&lt;/h1&gt;
+&lt;p&gt;In system development, you learn that algorithms and architectures are first-order determinants of program performance, and detailed implementation tricks are lower-order. The principle is to &lt;em&gt;exhaust first-order solutions before spending time on the less impactful lower-order solutions&lt;/em&gt;.&lt;/p&gt;
+&lt;h1&gt;Management Reports Are Profilers&lt;/h1&gt;
+&lt;p&gt;The same trap catches managers, and in the same way. They have tools to measure some aspects of performance of practitioners, projects, or whole departments. Like code profilers, they only measure the people that are there (as opposed to the people that &lt;em&gt;could&lt;/em&gt; be there), and they only measure things that are easy to measure; there is no number for skill or teamwork. &lt;/p&gt;
+&lt;p&gt;In software development, the &lt;em&gt;people&lt;/em&gt;&amp;thinsp;—&amp;thinsp;their skills and teamwork&amp;thinsp;—&amp;thinsp;are a first order determinant of project success. Choosing the right people is as important as choosing the right algorithm in software development: you can literally get ten times the performance with a better choice.&lt;/p&gt;
+&lt;p&gt;But often managers only consider the easily measurable metrics produced by their team. You can produce a 10% increase in an underperforming practitioner by sending them to a course. They learn a thing or two, come back unburdened and recharged, and they try harder for a time. Maybe. But if that person produces one tenth of the person you &lt;em&gt;could&lt;/em&gt; hire, then it&#39;s not the best use of management effort.&lt;/p&gt;
+&lt;p&gt;But, like the developer with the profiling report, these managers can show small percentage increases in their chosen metric. Also like the developer, there is no report that shows the tenfold increase possible only to a different approach. It&#39;s easy to measure training days, and correlate it to a minor percent increase in code commits. It&#39;s easy, but it&#39;s not the most effective strategy.&lt;/p&gt;
+&lt;h1&gt;What To Do?&lt;/h1&gt;
+&lt;p&gt;So what is a manager to do? You don&#39;t throw away your metrics. In any business you need some type of metrics, and they should be directly linked to the firm&#39;s profitability. But you should figure out what are first-order determinants of those results, and manage those, even if they&#39;re hard or impossible to measure.&lt;/p&gt;
+&lt;p&gt;Don&#39;t commit to metrics that are too limiting. If you measure training days, you&#39;re buying into the idea that training days is a worthwhile eventual indicator of profitability. You could manage that brilliantly and still fail, because training days are a minor determinant of success compared with skill and teamwork. Picking a wider measurement such as &#34;project success&#34; or &#34;revenue&#34; will enable you to make decisions more broadly about your first-order factors. That way you&#39;re not painted into a corner or managing the wrong variables.&lt;/p&gt;
+&lt;p&gt;And if you&#39;re an IT Manager, spend as much time as possible on getting the right people, and getting rid of the wrong people. The &#34;right&#34; people might be hard to measure on a report, but you&#39;re better off focusing on it as best you can instead of micro-managing metrics that hardly matter.&lt;/p&gt;</content>
+  </entry>
+  
   
   
   <entry>

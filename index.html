@@ -50,6 +50,47 @@
 <article class="article blogpost">
   <header>
     
+    <h1><a href="/2012/05/first-order-management.html">First-Order Management</a></h1>
+    
+  </header>
+  <p>The great thing about learning a principle is applying it to new and novel problems. I often get to apply principles from system architecture to my newer challenges in organizational and management problems.</p>
+<p>I have recently been thinking about how principles in performance optimization of programs can sometimes apply to the performance of people. I'll introduce the principle as I learned it, and then apply it to a common management problem.</p>
+<h1>Optimization Is Hard</h1>
+<p>There are a class of very common errors that developers often make when diagnosing performance problems. A well-meaning developer will hook up a profiler to a problematic bit of code to see what routines are taking too much time. They'll pick a routine that has a large  percent of runtime, and try to tweak the code to get it to run faster. Many of these tweaks only work for special case data, or on special case hardware, or need special compiler treatment. And often they only provide a few percentage points of improvement.</p>
+<p>The experienced developers have learned that there is a way to get much better improvements over a larger set of circumstances. Algorithmic and architecture changes regularly offer improvements an order of magnitude better than the original solution. The answer to a slow piece of code is often not to run it at all. As a simplified example, instead of speeding up ten slow database calls, it may be possible to rewrite the program to just use one call, or even eliminate runtime database lookups entirely.</p>
+<p>The problem with the profiler method is <em>using a solution that's easy to measure, but not the most impactful</em>. A profiler won't tell you about the health of your algorithm or architecture. It won't reveal a new O(n log n) solution to your problem instead of the O(n**2) one that you're trying to speed up.</p>
+<h1>The Principle</h1>
+<p>In system development, you learn that algorithms and architectures are first-order determinants of program performance, and detailed implementation tricks are lower-order. The principle is to <em>exhaust first-order solutions before spending time on the less impactful lower-order solutions</em>.</p>
+<h1>Management Reports Are Profilers</h1>
+<p>The same trap catches managers, and in the same way. They have tools to measure some aspects of performance of practitioners, projects, or whole departments. Like code profilers, they only measure the people that are there (as opposed to the people that <em>could</em> be there), and they only measure things that are easy to measure; there is no number for skill or teamwork. </p>
+<p>In software development, the <em>people</em>&thinsp;—&thinsp;their skills and teamwork&thinsp;—&thinsp;are a first order determinant of project success. Choosing the right people is as important as choosing the right algorithm in software development: you can literally get ten times the performance with a better choice.</p>
+<p>But often managers only consider the easily measurable metrics produced by their team. You can produce a 10% increase in an underperforming practitioner by sending them to a course. They learn a thing or two, come back unburdened and recharged, and they try harder for a time. Maybe. But if that person produces one tenth of the person you <em>could</em> hire, then it's not the best use of management effort.</p>
+<p>But, like the developer with the profiling report, these managers can show small percentage increases in their chosen metric. Also like the developer, there is no report that shows the tenfold increase possible only to a different approach. It's easy to measure training days, and correlate it to a minor percent increase in code commits. It's easy, but it's not the most effective strategy.</p>
+<h1>What To Do?</h1>
+<p>So what is a manager to do? You don't throw away your metrics. In any business you need some type of metrics, and they should be directly linked to the firm's profitability. But you should figure out what are first-order determinants of those results, and manage those, even if they're hard or impossible to measure.</p>
+<p>Don't commit to metrics that are too limiting. If you measure training days, you're buying into the idea that training days is a worthwhile eventual indicator of profitability. You could manage that brilliantly and still fail, because training days are a minor determinant of success compared with skill and teamwork. Picking a wider measurement such as "project success" or "revenue" will enable you to make decisions more broadly about your first-order factors. That way you're not painted into a corner or managing the wrong variables.</p>
+<p>And if you're an IT Manager, spend as much time as possible on getting the right people, and getting rid of the wrong people. The "right" people might be hard to measure on a report, but you're better off focusing on it as best you can instead of micro-managing metrics that hardly matter.</p>
+  <div class="taglist">corp, dev</div>
+  <footer>
+    
+    Posted
+     by Steve 
+     on 2012-05-02 22:46:00
+    
+  </footer>
+</article>
+
+
+  <hr class="article-separator"/>
+  
+
+  
+  
+  
+
+<article class="article blogpost">
+  <header>
+    
     <h1><a href="/2012/04/belated-praise-for-launchd.html">Belated Praise for Launchd</a></h1>
     
   </header>
@@ -192,34 +233,6 @@
 
   
   
-  
-
-<article class="article blogpost">
-  <header>
-    
-    <h1><a href="/2012/02/why-annual-osx-releases-are-important.html">Why Annual OS X Releases Are Important</a></h1>
-    
-  </header>
-  <p><a href="http://daringfireball.net/2012/02/mountain_lion">Mountain Lion</a> will be the first release in a new annual schedule for OS X. Like many of Apple's moves it's initially surprising, but hindsight makes it seem obvious. I'm sure there are several benefits to an annual release, but I would propose that iCloud may be the largest.</p>
-<p>We know from <a href="http://www.macrumors.com/2012/02/14/apple-ceo-tim-cook-speaks-at-goldman-sachs-technology-conference/">Tim Cook's comments</a> that he views iCloud as a "strategy for the next decade or more". Rolling out an iCloud service doesn't just require server code and a giant data center, it also means client-side code in every Apple computing device. And it's not just an app: given how iCloud services are tightly integrated into the operating systems, an iCloud service also means an update to iOS and OS X.</p>
-<h1>More like Documents <em>Only</em> in the Cloud</h1>
-<p>We have an example of an iCloud service that was launched without coordinated support from iOS and OS X, and it was ugly. Documents in the Cloud launched only with iOS support. Since Apple hates to describe features they <em>don't</em> support, they didn't volunteer that there was no support in OS X. Documents would sync between iPads and iPhones, but not OS X computers. At best you could manually access the document via Apple's web site. It was a glaring omission, and made Documents in the Cloud nearly useless for a lot of daily tasks.</p>
-<p>This lack of integration baffled reviewers and users alike. Apple usually shoots to delight customers, not to baffle them. It didn't "just work". Worse, it will have been close to 9 months before OS X gets Documents in the Cloud capability.</p>
-<h1>iCloud Requires Coordination</h1>
-<p>A yearly OS X release schedule allows Apple to coordinate iCloud service releases with operating system releases. Any framework updates to support new iCloud functionality can be baked into iOS and OS X and launched together in coordination with the service. The closer the releases are, the more seamless the iCloud service will appear. And if it's not seamless, Apple won't be able to win back customer trust from the last several years of janky network services.</p>
-  <div class="taglist">mac</div>
-  <footer>
-    
-    Posted
-     by Steve 
-     on 2012-02-26 19:50:00
-    
-  </footer>
-</article>
-
-
-  <hr class="article-separator"/>
-  
 
   
   
@@ -308,9 +321,45 @@ cool for Facebook, and too lazy to leave the couch. You can reach me at
       
     
       
+    
+      
+      <li><a class="archivelink" href="/archives.html#2012/05">May 2012
+        (1)
+      </a></li>
+      
+    
+    
+    
+  
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
       <li><a class="archivelink" href="/archives.html#2012/04">April 2012
         (2)
       </a></li>
+      
+    
       
     
     
@@ -345,6 +394,8 @@ cool for Facebook, and too lazy to leave the couch. You can reach me at
       <li><a class="archivelink" href="/archives.html#2012/03">March 2012
         (2)
       </a></li>
+      
+    
       
     
       
@@ -385,6 +436,8 @@ cool for Facebook, and too lazy to leave the couch. You can reach me at
     
       
     
+      
+    
     
     
   
@@ -409,6 +462,8 @@ cool for Facebook, and too lazy to leave the couch. You can reach me at
       <li><a class="archivelink" href="/archives.html#2012/01">January 2012
         (2)
       </a></li>
+      
+    
       
     
       
@@ -443,6 +498,8 @@ cool for Facebook, and too lazy to leave the couch. You can reach me at
       <li><a class="archivelink" href="/archives.html#2011/10">October 2011
         (2)
       </a></li>
+      
+    
       
     
       
@@ -489,6 +546,8 @@ cool for Facebook, and too lazy to leave the couch. You can reach me at
     
       
     
+      
+    
     
     
   
@@ -507,6 +566,8 @@ cool for Facebook, and too lazy to leave the couch. You can reach me at
       <li><a class="archivelink" href="/archives.html#2011/06">June 2011
         (2)
       </a></li>
+      
+    
       
     
       
@@ -557,6 +618,8 @@ cool for Facebook, and too lazy to leave the couch. You can reach me at
     
       
     
+      
+    
     
     
   
@@ -575,6 +638,8 @@ cool for Facebook, and too lazy to leave the couch. You can reach me at
       <li><a class="archivelink" href="/archives.html#2011/04">April 2011
         (4)
       </a></li>
+      
+    
       
     
       
@@ -637,6 +702,8 @@ cool for Facebook, and too lazy to leave the couch. You can reach me at
     
       
     
+      
+    
     
     
   
@@ -655,6 +722,8 @@ cool for Facebook, and too lazy to leave the couch. You can reach me at
       <li><a class="archivelink" href="/archives.html#2011/02">February 2011
         (1)
       </a></li>
+      
+    
       
     
       

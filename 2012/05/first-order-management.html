@@ -12,7 +12,7 @@
   <link href='http://fonts.googleapis.com/css?family=Quicksand|Maven+Pro' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/style.css">
   <link rel="alternate" type="application/atom+xml" title="danger, inc feed" href="/feeds/blog.xml" />
-  <title>danger, inc - Lion's Legacy: Sandboxing</title>
+  <title>danger, inc - First-Order Management</title>
   <script src="/js/libs/modernizr-2.5.3.min.js"></script>
   
 </head>
@@ -48,25 +48,32 @@
 <article class="article blogpost">
   <header>
     
-    <h1><a href="/2011/08/lions-legacy-sandboxing.html">Lion's Legacy: Sandboxing</a></h1>
+    <h1><a href="/2012/05/first-order-management.html">First-Order Management</a></h1>
     
   </header>
-  <p>Lion's new sandboxing feature has one groundbreaking aspect that has never been done with a sandbox environment before: Apple has enforced it on thousands of software developers through the Mac App Store.</p>
-<p>The technical bits are not technically unique or groundbreaking, but the enforcement is. Apple is raising the bar on technical skill and expertise — and therefore the cost of production of all the apps on the app store. This has never been done <em>for security</em>, for fear of running off developers to another platform.</p>
-<p>The technical principles behind sandboxing are well known. I first got excited about sandboxing with <a href="http://en.wikipedia.org/wiki/Dan_Bernstein">Dan Bernstein's</a> <a href="http://en.wikipedia.org/wiki/Qmail">software</a>. For years djb has been writing secure software — at least secure compared to normal standards. His applications run as several separate processes with minimal interfaces (and defined, known failure modes), and the least interaction with the system required for their duties.</p>
-<p>While the technique has been known for some years, the path of least resistance to application authors is the traditional monolithic program. It's much riskier, since a bug in one part of the program (say, the network side) can be exploited to do something to another part (say, the filesystem). So black hats can hit areas of code likely to have vulnerabilities (parsers that allocate and manage many buffers) to exploit a program to do something else (put files on the filesystem and/or execute code).</p>
-<p>So breaking your program up separates the part that handles lots of buffers from the part that talks to the filesystem. It not only gets the programmer to think about the design more, reducing bugs, it also lessens the severity of any bugs that are left in. But it's only part of the battle. The system must also have the level of control which restricts the processes to just the set of resources necessary to do their jobs. Unix has some of this, but it's tricky. There also have to be standard services to call to get access to special resources, like arbitrary parts of the filesystem.</p>
-<p>Even if all of that is in place, we still don't see tons of developers creating this type of secure software. <strong>So long as it's been possible for people <em>not</em> to write applications in this way, they will not.</strong> It's harder, and there isn't an economic payoff. It isn't a feature that users generally pay for, in part, because customers can't evaluate security well on a program by program basis.</p>
-<p>But Apple has an incentive to keep the <em>platform itself</em> more secure. People may not evaluate single programs against each other, but they do know which platforms are riddled with security problems. The Mac has benefitted from low malware rates for years, and Apple has marketed on that fact. Now they must actively take care to keep that reputation.</p>
-<p>iOS users are unprecedented in the current computer age for their trust and willingness to install applications. So far, that trust has been earned by Apple. Especially compared to Android, where trojans are removed only after they cause a few thousand people some harm. If Apple can make their Mac App Store as secure, then everyone with an ounce of technical sense will be telling their family members to buy Apple, if only to reduce their own support burden.</p>
-<p>I applaud Apple for taking security seriously. Not because it's altruistic — they're doing it entirely because it's a measurable competitive advantage. I applaud them for gaining their advantage honestly, with real security improvements, instead of <a href="http://en.wikipedia.org/wiki/Security_theatre">security theatre</a>. They could have just tried to run from the bear a little faster than Windows. Instead they're trying something substantial, at a nontrivial cost.</p>
-<p>Not only is it laudable, it's likely to teach a generation of programmers what secure software looks like. This could raise the bar permanently on what platforms are expected to provide, leaving a legacy of better-engineered code as the result. When all the dust settles, that may be the largest impact Lion has.</p>
-  <div class="taglist">mac</div>
+  <p>The great thing about learning a principle is applying it to new and novel problems. I often get to apply principles from system architecture to my newer challenges in organizational and management problems.</p>
+<p>I have recently been thinking about how principles in performance optimization of programs can sometimes apply to the performance of people. I'll introduce the principle as I learned it, and then apply it to a common management problem.</p>
+<h1>Optimization Is Hard</h1>
+<p>There are a class of very common errors that developers often make when diagnosing performance problems. A well-meaning developer will hook up a profiler to a problematic bit of code to see what routines are taking too much time. They'll pick a routine that has a large  percent of runtime, and try to tweak the code to get it to run faster. Many of these tweaks only work for special case data, or on special case hardware, or need special compiler treatment. And often they only provide a few percentage points of improvement.</p>
+<p>The experienced developers have learned that there is a way to get much better improvements over a larger set of circumstances. Algorithmic and architecture changes regularly offer improvements an order of magnitude better than the original solution. The answer to a slow piece of code is often not to run it at all. As a simplified example, instead of speeding up ten slow database calls, it may be possible to rewrite the program to just use one call, or even eliminate runtime database lookups entirely.</p>
+<p>The problem with the profiler method is <em>using a solution that's easy to measure, but not the most impactful</em>. A profiler won't tell you about the health of your algorithm or architecture. It won't reveal a new O(n log n) solution to your problem instead of the O(n**2) one that you're trying to speed up.</p>
+<h1>The Principle</h1>
+<p>In system development, you learn that algorithms and architectures are first-order determinants of program performance, and detailed implementation tricks are lower-order. The principle is to <em>exhaust first-order solutions before spending time on the less impactful lower-order solutions</em>.</p>
+<h1>Management Reports Are Profilers</h1>
+<p>The same trap catches managers, and in the same way. They have tools to measure some aspects of performance of practitioners, projects, or whole departments. Like code profilers, they only measure the people that are there (as opposed to the people that <em>could</em> be there), and they only measure things that are easy to measure; there is no number for skill or teamwork. </p>
+<p>In software development, the <em>people</em>&thinsp;—&thinsp;their skills and teamwork&thinsp;—&thinsp;are a first order determinant of project success. Choosing the right people is as important as choosing the right algorithm in software development: you can literally get ten times the performance with a better choice.</p>
+<p>But often managers only consider the easily measurable metrics produced by their team. You can produce a 10% increase in an underperforming practitioner by sending them to a course. They learn a thing or two, come back unburdened and recharged, and they try harder for a time. Maybe. But if that person produces one tenth of the person you <em>could</em> hire, then it's not the best use of management effort.</p>
+<p>But, like the developer with the profiling report, these managers can show small percentage increases in their chosen metric. Also like the developer, there is no report that shows the tenfold increase possible only to a different approach. It's easy to measure training days, and correlate it to a minor percent increase in code commits. It's easy, but it's not the most effective strategy.</p>
+<h1>What To Do?</h1>
+<p>So what is a manager to do? You don't throw away your metrics. In any business you need some type of metrics, and they should be directly linked to the firm's profitability. But you should figure out what are first-order determinants of those results, and manage those, even if they're hard or impossible to measure.</p>
+<p>Don't commit to metrics that are too limiting. If you measure training days, you're buying into the idea that training days is a worthwhile eventual indicator of profitability. You could manage that brilliantly and still fail, because training days are a minor determinant of success compared with skill and teamwork. Picking a wider measurement such as "project success" or "revenue" will enable you to make decisions more broadly about your first-order factors. That way you're not painted into a corner or managing the wrong variables.</p>
+<p>And if you're an IT Manager, spend as much time as possible on getting the right people, and getting rid of the wrong people. The "right" people might be hard to measure on a report, but you're better off focusing on it as best you can instead of micro-managing metrics that hardly matter.</p>
+  <div class="taglist">corp, dev</div>
   <footer>
     
     Posted
      by Steve 
-     on 2011-08-02 07:47:00
+     on 2012-05-02 22:46:00
     
   </footer>
 </article>
@@ -92,7 +99,7 @@
                 <ul>
             
             
-                <li><a class="archivelink" href="/2011/02/navigating-the-app-store.html">Navigating the App Store</a></li>
+                <li><a class="archivelink" href="/2011/03/effort-culture-vs-product-culture.html">Effort Culture vs. Product Culture</a></li>
             
             
           
@@ -103,22 +110,7 @@
         
           
             
-                <li><a class="archivelink" href="/2011/04/the-mac-app-store.html">The (Mac) App Store</a></li>
-            
-            
-          
-        
-      
-    
-      
-        
-      
-    
-      
-        
-          
-            
-                <li><a class="archivelink" href="/2011/10/unix-without-a-filesystem.html">Unix Without A Filesystem</a></li>
+                <li><a class="archivelink" href="/2011/04/rethinking-data-centers.html">Rethinking Data Centers</a></li>
             
             
           
@@ -129,7 +121,7 @@
         
           
             
-                <li><a class="archivelink" href="/2012/02/why-annual-osx-releases-are-important.html">Why Annual OS X Releases Are Important</a></li>
+                <li><a class="archivelink" href="/2011/05/out-of-scope.html">Out Of Scope</a></li>
             
             
           
@@ -140,7 +132,7 @@
         
           
             
-                <li><a class="archivelink" href="/2012/03/hacking-away-at-wimp.html">Hacking Away At WIMP</a></li>
+                <li><a class="archivelink" href="/2011/06/looking-like-idiots.html">Looking Like Idiots</a></li>
             
             
           
@@ -151,10 +143,43 @@
         
           
             
-                <li><a class="archivelink" href="/2012/03/why-add-a-printer-at-all.html">Why Add A Printer At All</a></li>
+                <li><a class="archivelink" href="/2012/01/circumventing-it.html">Circumventing IT</a></li>
             
             
           
+        
+      
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2012/04/dont-hate-the-customer.html">Don't Hate The Customer</a></li>
+            
+            
+          
+        
+      
+    
+      
+        
+      
+    
+    
+  
+    
+      
+        
+          
+            
+                <li><a class="archivelink" href="/2011/03/pairing-up-for-design.html">Pairing Up For Design</a></li>
+            
+            
+          
+        
+      
+    
+      
         
       
     
@@ -166,6 +191,10 @@
             
             
           
+        
+      
+    
+      
         
       
     
