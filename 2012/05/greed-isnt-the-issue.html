@@ -12,7 +12,7 @@
   <link href='http://fonts.googleapis.com/css?family=Quicksand|Maven+Pro' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/style.css">
   <link rel="alternate" type="application/atom+xml" title="danger, inc feed" href="/feeds/blog.xml" />
-  <title>danger, inc - Lion's Legacy: Sandboxing</title>
+  <title>danger, inc - Greed Isn't The Issue</title>
   <script src="/js/libs/modernizr-2.5.3.min.js"></script>
   
 </head>
@@ -48,25 +48,21 @@
 <article class="article blogpost">
   <header>
     
-    <h1><a href="/2011/08/lions-legacy-sandboxing.html">Lion's Legacy: Sandboxing</a></h1>
+    <h1><a href="/2012/05/greed-isnt-the-issue.html">Greed Isn't The Issue</a></h1>
     
   </header>
-  <p>Lion's new sandboxing feature has one groundbreaking aspect that has never been done with a sandbox environment before: Apple has enforced it on thousands of software developers through the Mac App Store.</p>
-<p>The technical bits are not technically unique or groundbreaking, but the enforcement is. Apple is raising the bar on technical skill and expertise — and therefore the cost of production of all the apps on the app store. This has never been done <em>for security</em>, for fear of running off developers to another platform.</p>
-<p>The technical principles behind sandboxing are well known. I first got excited about sandboxing with <a href="http://en.wikipedia.org/wiki/Dan_Bernstein">Dan Bernstein's</a> <a href="http://en.wikipedia.org/wiki/Qmail">software</a>. For years djb has been writing secure software — at least secure compared to normal standards. His applications run as several separate processes with minimal interfaces (and defined, known failure modes), and the least interaction with the system required for their duties.</p>
-<p>While the technique has been known for some years, the path of least resistance to application authors is the traditional monolithic program. It's much riskier, since a bug in one part of the program (say, the network side) can be exploited to do something to another part (say, the filesystem). So black hats can hit areas of code likely to have vulnerabilities (parsers that allocate and manage many buffers) to exploit a program to do something else (put files on the filesystem and/or execute code).</p>
-<p>So breaking your program up separates the part that handles lots of buffers from the part that talks to the filesystem. It not only gets the programmer to think about the design more, reducing bugs, it also lessens the severity of any bugs that are left in. But it's only part of the battle. The system must also have the level of control which restricts the processes to just the set of resources necessary to do their jobs. Unix has some of this, but it's tricky. There also have to be standard services to call to get access to special resources, like arbitrary parts of the filesystem.</p>
-<p>Even if all of that is in place, we still don't see tons of developers creating this type of secure software. <strong>So long as it's been possible for people <em>not</em> to write applications in this way, they will not.</strong> It's harder, and there isn't an economic payoff. It isn't a feature that users generally pay for, in part, because customers can't evaluate security well on a program by program basis.</p>
-<p>But Apple has an incentive to keep the <em>platform itself</em> more secure. People may not evaluate single programs against each other, but they do know which platforms are riddled with security problems. The Mac has benefitted from low malware rates for years, and Apple has marketed on that fact. Now they must actively take care to keep that reputation.</p>
-<p>iOS users are unprecedented in the current computer age for their trust and willingness to install applications. So far, that trust has been earned by Apple. Especially compared to Android, where trojans are removed only after they cause a few thousand people some harm. If Apple can make their Mac App Store as secure, then everyone with an ounce of technical sense will be telling their family members to buy Apple, if only to reduce their own support burden.</p>
-<p>I applaud Apple for taking security seriously. Not because it's altruistic — they're doing it entirely because it's a measurable competitive advantage. I applaud them for gaining their advantage honestly, with real security improvements, instead of <a href="http://en.wikipedia.org/wiki/Security_theatre">security theatre</a>. They could have just tried to run from the bear a little faster than Windows. Instead they're trying something substantial, at a nontrivial cost.</p>
-<p>Not only is it laudable, it's likely to teach a generation of programmers what secure software looks like. This could raise the bar permanently on what platforms are expected to provide, leaving a legacy of better-engineered code as the result. When all the dust settles, that may be the largest impact Lion has.</p>
-  <div class="taglist">mac</div>
+  <p>I tend to roll my eyes when people blame a high price on corporate greed. It's especially roll-worthy when these same people find the high price when comparison shopping on sites all over the world to get the lowest price for something.</p>
+<p>A transaction has two sides, each side trying to get the best deal. For the buyer, it means getting the most product for your money. For the seller, it means getting the most money for your product.</p>
+<p>It's terribly hypocritical for a person on one side of the transaction to maximize their return (say, by comparison shopping), but denigrate a seller's effort to maximize by charging what the market will bear. I'm not talking about defrauding people. I'm just talking about charging what people will pay.</p>
+<p>People engaged in economic activity will try to make sure they get the best deal they can reasonably find, or at least will choose transactions they think aren't ripoffs (which is the same thing). That way, when both parties agree on a sale, both feel like they are better off for having made the transaction. One party wanted the item more than their money, and the other wanted the money more than the thing. So they exchanged. That's how it works.</p>
+<p>It's one of the beautiful symmetries in life that it works the same no matter which side of the transaction you're on. The fact that <em>each person feels they've gained</em> by the trade is why it works. Mutual exchange for mutual benefit is the basis for specialization and a society with all our modern conveniences. And I <em>like</em> modern conveniences.</p>
+<p>So the real issue isn't "greed" at all, since that would describe anyone trying to get the most for their money as well. A proper morality is not some naïve and self-contradictory altruism. Blaming anything on "greed" is a sign that a person needs to work out a better moral understanding of themselves and the people around them.</p>
+  <div class="taglist">econ</div>
   <footer>
     
     Posted
      by Steve 
-     on 2011-08-02 07:47:00
+     on 2012-05-29 23:14:00
     
   </footer>
 </article>
@@ -84,95 +80,8 @@
     
       
         
-          
-            
-            <div class="supplements">
-              <nav class="archives related">
-                <h1>Related Posts</h1>
-                <ul>
-            
-            
-                <li><a class="archivelink" href="/2011/02/navigating-the-app-store.html">Navigating the App Store</a></li>
-            
-            
-          
-        
       
     
-      
-        
-          
-            
-                <li><a class="archivelink" href="/2011/04/the-mac-app-store.html">The (Mac) App Store</a></li>
-            
-            
-          
-        
-      
-    
-      
-        
-      
-    
-      
-        
-          
-            
-                <li><a class="archivelink" href="/2011/10/unix-without-a-filesystem.html">Unix Without A Filesystem</a></li>
-            
-            
-          
-        
-      
-    
-      
-        
-          
-            
-                <li><a class="archivelink" href="/2012/02/why-annual-osx-releases-are-important.html">Why Annual OS X Releases Are Important</a></li>
-            
-            
-          
-        
-      
-    
-      
-        
-          
-            
-                <li><a class="archivelink" href="/2012/03/hacking-away-at-wimp.html">Hacking Away At WIMP</a></li>
-            
-            
-          
-        
-      
-    
-      
-        
-          
-            
-                <li><a class="archivelink" href="/2012/03/why-add-a-printer-at-all.html">Why Add A Printer At All</a></li>
-            
-            
-          
-        
-      
-    
-      
-        
-          
-            
-                <li><a class="archivelink" href="/2012/04/belated-praise-for-launchd.html">Belated Praise for Launchd</a></li>
-            
-            
-          
-        
-      
-    
-    
-          </ul>
-        </nav>
-      </div>
     
   
 
