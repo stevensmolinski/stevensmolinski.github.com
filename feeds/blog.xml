@@ -6,7 +6,7 @@
   <link href="http://dangerinc.ca/"/>
   <link rel="self" href="http://dangerinc.ca/feeds/blog.xml"/>
   
-  <updated>2012-06-09T15:31:00-02:30</updated>
+  <updated>2012-06-10T14:30:00-02:30</updated>
   <author>
     <name>Steven Smolinski</name>
   </author>
@@ -17,6 +17,25 @@
   <logo>/apple-touch-icon-57x57-precomposed.png</logo>
   <rights>Copyright 2012 Steven Smolinski</rights>
 
+  
+  
+  <entry>
+    <title>Why Enterprise Software Sucks At UI</title>
+    <link href="http://dangerinc.ca/2012/06/why-enterprise-software-sucks-at-ui.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2012/06/why-enterprise-software-sucks-at-ui.html</id>
+    <updated>2012-06-10T14:30:00-02:30</updated>
+    <content type="html">&lt;p&gt;I&#39;ve spent a lot of time around enterprise software. I&#39;ve used it as part of many jobs, I&#39;ve purchased it from vendors, and I&#39;ve built custom applications on top of enterprise software, and produced enterprise software for corporate clients. And I&#39;ve hated every enterprise UI I&#39;ve ever seen.&lt;/p&gt;
+&lt;p&gt;As with many things, monetary incentives drive the form  that enterprise software takes. Just as most software isn&#39;t very secure because people can&#39;t measure security, enterprise customers won&#39;t pay for good UI work. And it&#39;s not because the buyers &lt;em&gt;dislike&lt;/em&gt; good UI, it&#39;s because they don&#39;t measure it and don&#39;t try.&lt;/p&gt;
+&lt;p&gt;This is because the purchaser for enterprise software is almost never the final user. They collect a matrix of interests and needs that the product has to fulfill, and then judge different vendor products against the matrix. The IT department needs the product to integrate with all the other crappy software they use. The compliance department needs it to be certified with any regulations or standards that apply. Risk Management needs to know the vendor is a going concern and not likely to go under. Everyone has a column they need to put a tick mark in. The most tick marks gets the sale.&lt;/p&gt;
+&lt;p&gt;The group of people who would &lt;em&gt;use&lt;/em&gt; the software is often represented by a manager one or two levels away from the actual users. There are often literally no actual users present when it is evaluated and the choice is made. Even if there is a single user, there&#39;s no veto for a shitty UI like there is for missing a regulation. This just doesn&#39;t make it random whether or not the chosen software has a good UI, it drives the market to spend less and less on UI.&lt;/p&gt;
+&lt;p&gt;Vendors know how purchasing decisions are made, and which missing tick marks will cost them a sale. So all development is oriented towards those features. And once the software is purchased it&#39;s very expensive to move away, so people will put up with poor UIs as a matter of practice. Managers will tell you it&#39;s your job to use the software — it&#39;s not supposed to be fun or delightful.&lt;/p&gt;
+&lt;p&gt;This is how enterprise software is guaranteed to have poor UI: any dollars and development time going to UI is &lt;em&gt;taken&lt;/em&gt; from some feature that one of these enterprise customers need to tick a mark on a comparison sheet. UI work can cost a sale. As long as buyers never ask and can&#39;t measure how productive a UI is in a demo, vendors will never spend money on it.&lt;/p&gt;
+&lt;p&gt;This is another reason I like &lt;a href=&#34;/2012/05/simplify-business-models.html&#34;&gt;simpler business models&lt;/a&gt;. In this case, that would mean the purchaser should also be the user of the software, to make sure you&#39;re actually incented to delight the &lt;em&gt;users&lt;/em&gt; of the software, not just the &lt;em&gt;purchasers&lt;/em&gt; of it.&lt;/p&gt;</content>
+  </entry>
+  
   
   
   <entry>
