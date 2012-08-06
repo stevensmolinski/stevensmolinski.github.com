@@ -6,7 +6,7 @@
   <link href="http://dangerinc.ca/"/>
   <link rel="self" href="http://dangerinc.ca/feeds/blog.xml"/>
   
-  <updated>2012-06-10T14:30:00-02:30</updated>
+  <updated>2012-08-05T21:51:00-02:30</updated>
   <author>
     <name>Steven Smolinski</name>
   </author>
@@ -17,6 +17,33 @@
   <logo>/apple-touch-icon-57x57-precomposed.png</logo>
   <rights>Copyright 2012 Steven Smolinski</rights>
 
+  
+  
+  <entry>
+    <title>All Chefs and No Cooks</title>
+    <link href="http://dangerinc.ca/2012/08/all-chefs-and-no-cooks.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2012/08/all-chefs-and-no-cooks.html</id>
+    <updated>2012-08-05T21:51:00-02:30</updated>
+    <content type="html">&lt;p&gt;You can ruin any endeavour by over or under-specialization. While this lesson gets easily lost in corporate technology projects, it&#39;s pretty obvious in cooking. No one would staff a 200 table restaurant with one employee per table, waiting, cooking, mixing drinks, and bussing the table. You&#39;d wait forever for meals, and they&#39;d be inconsistent at best. On the other extreme, no one would assemble a chef, sous-chef, and three line cooks to make a bowl of cereal.&lt;/p&gt;
+&lt;h2&gt;Under-specialized&lt;/h2&gt;
+&lt;p&gt;For a small, growing company, the tendency is under-specialization. People go on &#34;wearing many hats&#34; for longer than is practical — waiting too long to get someone good at a particular important task, such as UI design, scaling web services, or QA. This leads to the same deficiencies as the restaurant with no specialization: slow, inconsistent delivery.&lt;/p&gt;
+&lt;p&gt;This is an issue every growing company deals with. So long as the revenue is growing, it suffices to hire people in the needed specialties, and move existing people into more specialized roles within their aptitude. In some cases, the types of people who do well in a small company with no specialization don&#39;t do well in a larger one and will leave when the direction becomes clear. That&#39;s good for everyone, since they won&#39;t fight the trend to an appropriate level of specialization.&lt;/p&gt;
+&lt;p&gt;The trap is to have a generation of specialists trying to work with the generalists that came before, stepping all over toes and working to different standards.&lt;/p&gt;
+&lt;h2&gt;Over-specialized&lt;/h2&gt;
+&lt;p&gt;Large corporations tend to over-specialize. I&#39;ve seen ten million dollar bowls of cereal because people decided to staff a project with analysts, architects, developers, QA, project management, all for something that should have taken half the number of people. Some efforts only need a few people who can collectively perform 7 or 8 different roles temporarily and as required.&lt;/p&gt;
+&lt;p&gt;Lacking the ability to identify or retain generalists, the solution corporations often implement is to allocate every practitioner to many projects. You&#39;ll get 40% of an analyst&#39;s time, 15% of an architect, and so on. This attempts to solve the problem by staffing all 8 roles, but at small allocations so the total project only bills the equivalent of 3 full time people. Of course, as any person who&#39;s every been on five projects at 20% can tell you, this solution is largely a terrible accounting fiction.&lt;/p&gt;
+&lt;h2&gt;One Size Never Fits All&lt;/h2&gt;
+&lt;p&gt;These problems are perennial issue for any organization, large or small. So what&#39;s the solution? As any public service announcement will tell you, &#34;the key is awareness.&#34;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Organizations should explicitly choose the level of specialization, and review the choice often enough to prevent large failures.&lt;/em&gt; You can have people either wearing 6 hats or working on 6 projects for a very short time, but that&#39;s the cue to change the game.&lt;/p&gt;
+&lt;h2&gt;Corporate Trends&lt;/h2&gt;
+&lt;p&gt;Many corporate technology departments were built around in-house, custom-developed, highly complex solutions. One by one,  enterprise niches are now being served by purchased applications on commodity infrastructure. What used to take analysts, system architects, and a whole set of developers can sometimes be accomplished with a couple of people who can gather requirements, customize a product, and wrangle a quick user acceptance test. In the CRM niche, we have seen the evolution of custom in-house CRM tools to Salesforce.com.&lt;/p&gt;
+&lt;p&gt;This trend means many corporate technology departments are getting &lt;em&gt;smaller and less specialized.&lt;/em&gt; It&#39;s hard to let go a good employee because you just don&#39;t need that kind of work anymore. And don&#39;t think that the existing employees won&#39;t see this transition coming.&lt;/p&gt;
+&lt;p&gt;But the solution is still to evaluate the level of specialization required in each situation and intentionally craft the organization. Corporations have to remember that just because it&#39;s more difficult in a shrinking organization than a growing one doesn&#39;t mean it&#39;s not the right thing to do.&lt;/p&gt;</content>
+  </entry>
+  
   
   
   <entry>
