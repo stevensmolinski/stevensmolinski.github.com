@@ -271,13 +271,14 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	background-color: #bbb;
-	color: #2f5e5e;
-}
 
 a:visited {
 	color: #bbb;
+}
+
+a:hover {
+	background-color: #bbb;
+	color: #2f5e5e;
 }
 
 
