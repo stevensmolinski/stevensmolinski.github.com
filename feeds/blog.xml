@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title>Whiskypedia Blog</title>
-  <subtitle>Real Reviews for Real People</subtitle>
+  <title>dangerinc.ca</title>
+  <subtitle>... not really incorporated</subtitle>
   <link href="http://dangerinc.ca/"/>
   <link rel="self" href="http://dangerinc.ca/feeds/blog.xml"/>
   
@@ -10,9 +10,6 @@
   <author>
     <name>Steven Smolinski</name>
   </author>
-  <contributor>
-    <name>Aaron</name>
-  </contributor>
   <id>http://dangerinc.ca/#blog</id>
   <logo>/apple-touch-icon-57x57-precomposed.png</logo>
   <rights>Copyright 2012 Steven Smolinski</rights>
