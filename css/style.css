@@ -236,7 +236,7 @@ td { vertical-align: top; }
 
 /* reset a reset made above */
 ul, ol { margin: 1em 1em; padding: 0 0 0 40px; }
-ol li { display: block; }
+ol li { display: list-item; }
 
 /* color palette looks pretty in espresso */
 .primary-lightest {	background-color: #f6f7e4; color: #441d13; }
