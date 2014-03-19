@@ -6,7 +6,7 @@
   <link href="http://dangerinc.ca/"/>
   <link rel="self" href="http://dangerinc.ca/feeds/blog.xml"/>
   
-  <updated>2014-02-27T14:36:41-03:30</updated>
+  <updated>2014-03-19T13:10:34-02:30</updated>
   <author>
     <name>Steven Smolinski</name>
   </author>
@@ -17,36 +17,45 @@
   
   
   <entry>
+    <title>Sculpt Keyboard Review</title>
+    <link href="http://dangerinc.ca/2014/03/sculpt-keyboard-review.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2014/03/sculpt-keyboard-review.html</id>
+    <updated>2014-03-19T13:10:34-02:30</updated>
+    <content type="html">&lt;p&gt;At &lt;a href=&#34;http://www.marco.org/2013/08/30/sculpt-ergonomic-keyboard-review&#34;&gt;Marco&#39;s insistence&lt;/a&gt;, I decided to try a Microsoft Sculpt ergonomic keyboard. Even those without &lt;a href=&#34;http://en.wikipedia.org/wiki/Repetitive_strain_injury&#34;&gt;RSI&lt;/a&gt; can suffer from poor ergonomics when typing all day, so a design minimizing fatigue and pain is welcome.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;My old solution was to prop up the front of Apple&#39;s wireless keyboard to make it flat. I used bits of old cardboard, which would have made Jony Ive blanch. They weren&#39;t chamfered or anything.&lt;/p&gt;
+&lt;h2&gt;The Good&lt;/h2&gt;
+&lt;p&gt;The Sculpt has some familiarity for those used to Apple&#39;s modern aluminium keyboards. The sculpt&#39;s keys are similarly low-travel, flat-topped, and silent. The arrow keys, while thankfully almost three times the size of Apple&#39;s, are close and tucked into the corner. Every attempt has been made to eliminate unnecessary width, including detaching the number pad and making vertical the control buttons usually on the right hand side. &lt;/p&gt;
+&lt;p&gt;Even some minor parts of the design have a commendable attention to detail. Both the battery door and stand are attached by magnets rather than fragile plastic tabs. And you don&#39;t read much about battery life because it seems to be a solved problem. Battery life is measured in months instead of days or weeks.&lt;/p&gt;
+&lt;h2&gt;The Bad&lt;/h2&gt;
+&lt;p&gt;As a heavy &lt;code&gt;vim&lt;/code&gt; user, the main compromise is that the top row — including the escape key — are not actual keyboard buttons. They&#39;re zero-travel buttons like you&#39;d see on the front of your monitor or TV. With how often I use &lt;code&gt;Esc&lt;/code&gt;, the key may wear out before the batteries wear out.&lt;/p&gt;
+&lt;p&gt;The top row is even more problematic for Mac users. Apple&#39;s keyboards use the F-key row for all sorts of different functions than Windows computers, and the only overlap with the Sculpt is the mute and volume keys. All the other special functions are Windows-specific, and don&#39;t do anything on the Mac. And if you flip the toggle to use the F-keys, then you lose even the handy ability to easily change the volume.&lt;/p&gt;
+&lt;h2&gt;Two Weeks In&lt;/h2&gt;
+&lt;p&gt;Switching to a split keyboard from a regular one quickly shows your unconventional habits, typing keys left of the centerline with the right hand, or vice versa. The more unconventional, the more trouble you&#39;ll have with a split keyboard. For me, it&#39;s the &lt;code&gt;Y&lt;/code&gt;. I often type &lt;code&gt;Y&lt;/code&gt; with my left hand, and it&#39;s taken time to train the proper way.&lt;/p&gt;
+&lt;p&gt;The designers have done a great job enlargening the bottom row of keys: Ctrl, Alt, &amp;#8984;, space. You don&#39;t need to be very accurate to find the right key. And even though the backspace key is quite large, it &lt;em&gt;feels&lt;/em&gt; so far away that it&#39;s taken more time to be accurate with. The bottom line is that, while different, there is no large productivity loss. For a coder, often the bottleneck isn&#39;t speed of typing, it&#39;s the speed of figuring out what to type.&lt;/p&gt;
+&lt;p&gt;As far as the main purpose of the keyboard: I can report having no fatigue or wrist pain, in situations which might have caused it with my old setup. Absence of evidence isn&#39;t evidence of absence, I know — there have also been no tiger attacks in my office since I purchased the keyboard. But it&#39;s a good start. Of course the type of keyboard is just the start: there&#39;s elevation, posture, distance to the keyboard, and all sorts of other ergonomic factors that feed into pain-free typing. Bu this keyboard won&#39;t get in your way, if that&#39;s your goal.&lt;/p&gt;
+&lt;p&gt;In all, I heartily endorse Marco&#39;s hearty endorsement. If they fixed the top row&#39;s hardware and functionality problems it would go from being a good keyboard to a great one.&lt;/p&gt;</content>
+  </entry>
+  
+  
+  
+  <entry>
     <title>Cooler and Harder</title>
     <link href="http://dangerinc.ca/2014/02/cooler-and-harder.html"/>
     
     <author><name>Steve</name></author>
     
     <id>http://dangerinc.ca/2014/02/cooler-and-harder.html</id>
-    <updated>2014-02-27T14:36:41-03:30</updated>
-    <content type="html">&lt;p&gt;In 2011, Merlin Mann &lt;a href=&#34;http://www.youtube.com/watch?v=Lk0hSeQ5s_k&#34;&gt;talked about being
-scared&lt;/a&gt; about making cool stuff,
-and doing cool things. And how we shouldn&#39;t stop doing harder and cooler things
-just because we&#39;re scared. Everyone is scared, even the successful. Back then I
-was making things, but they weren&#39;t as cool as I liked, and they were locked up
-behind a corporate wall. Merlin&#39;s talk inspired me to be scared of bigger and
-better things.&lt;/p&gt;
-&lt;p&gt;Instead of enterprise problems, I&#39;m going to help with problems of actual
-people. Success won&#39;t be a number on a spreadsheet, but a smile on someone&#39;s
-face. That&#39;s cool.&lt;/p&gt;
-&lt;p&gt;Instead of locking up my work inside a corporate owner, I&#39;m going to work on
-something with a wider audience, out on the open web, where it will stand for
-itself. That&#39;s also cool.&lt;/p&gt;
-&lt;p&gt;I&#39;m going to use my best judgment, instead of trying to achieve consensus among
-tens of stakeholders. I&#39;m going to sweat user experience details, even the ones
-that don&#39;t have a measurable ROI. I&#39;m going to use modern technology. I&#39;m going
-to try and delight my customers.&lt;/p&gt;
-&lt;p&gt;And I&#39;m not going to have an evil business model. I&#39;m going to make something
-that people like enough to pay for it. I&#39;m not going to sell anyone up the
-river.&lt;/p&gt;
-&lt;p&gt;I expect this to be a hard road. My goal is to work on hard but rewarding
-problems. At least I know I&#39;ll be half right; I&#39;m still only projecting the
-rewarding part.&lt;/p&gt;</content>
+    <updated>2014-03-04T15:10:09-03:30</updated>
+    <content type="html">&lt;p&gt;In 2011, Merlin Mann &lt;a href=&#34;http://www.youtube.com/watch?v=Lk0hSeQ5s_k&#34;&gt;talked about being scared&lt;/a&gt; about making cool stuff, and doing cool things. And how we shouldn&#39;t stop doing harder and cooler things just because we&#39;re scared. Everyone is scared, even the successful. Back then I was making things, but they weren&#39;t as cool as I liked, and they were locked up behind a corporate wall. Merlin&#39;s talk inspired me to be scared of bigger and better things.&lt;/p&gt;
+&lt;p&gt;Instead of enterprise problems, I&#39;m going to help with problems of actual people. Success won&#39;t be a number on a spreadsheet, but a smile on someone&#39;s face. That&#39;s cool.&lt;/p&gt;
+&lt;p&gt;Instead of locking up my work inside a corporate owner, I&#39;m going to work on something with a wider audience, out on the open web, where it will stand for itself. That&#39;s also cool.&lt;/p&gt;
+&lt;p&gt;I&#39;m going to use my best judgment, instead of trying to achieve consensus among tens of stakeholders. I&#39;m going to sweat user experience details, even the ones that don&#39;t have a measurable ROI. I&#39;m going to use modern technology. I&#39;m going to try and delight my customers.&lt;/p&gt;
+&lt;p&gt;And I&#39;m not going to have an evil business model. I&#39;m going to make something that people like enough to pay for it. I&#39;m not going to sell anyone up the river.&lt;/p&gt;
+&lt;p&gt;I expect this to be a hard road. My goal is to work on hard but rewarding problems. At least I know I&#39;ll be half right; I&#39;m still only projecting the rewarding part.&lt;/p&gt;</content>
   </entry>
   
   

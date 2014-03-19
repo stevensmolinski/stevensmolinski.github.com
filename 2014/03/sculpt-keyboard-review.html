@@ -12,7 +12,7 @@
   <link href='http://fonts.googleapis.com/css?family=Quicksand|Maven+Pro' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/style.css">
   <link rel="alternate" type="application/atom+xml" title="danger, inc feed" href="/feeds/blog.xml" />
-  <title>danger, inc - Lion's Legacy: Sandboxing</title>
+  <title>danger, inc - Sculpt Keyboard Review</title>
   
 </head>
 <body>
@@ -47,25 +47,29 @@
 <article class="article blogpost">
   <header>
     
-    <h1><a href="/2011/08/lions-legacy-sandboxing.html">Lion's Legacy: Sandboxing</a></h1>
+    <h1><a href="/2014/03/sculpt-keyboard-review.html">Sculpt Keyboard Review</a></h1>
     
   </header>
-  <p>Lion's new sandboxing feature has one groundbreaking aspect that has never been done with a sandbox environment before: Apple has enforced it on thousands of software developers through the Mac App Store.</p>
-<p>The technical bits are not technically unique or groundbreaking, but the enforcement is. Apple is raising the bar on technical skill and expertise — and therefore the cost of production of all the apps on the app store. This has never been done <em>for security</em>, for fear of running off developers to another platform.</p>
-<p>The technical principles behind sandboxing are well known. I first got excited about sandboxing with <a href="http://en.wikipedia.org/wiki/Dan_Bernstein">Dan Bernstein's</a> <a href="http://en.wikipedia.org/wiki/Qmail">software</a>. For years djb has been writing secure software — at least secure compared to normal standards. His applications run as several separate processes with minimal interfaces (and defined, known failure modes), and the least interaction with the system required for their duties.</p>
-<p>While the technique has been known for some years, the path of least resistance to application authors is the traditional monolithic program. It's much riskier, since a bug in one part of the program (say, the network side) can be exploited to do something to another part (say, the filesystem). So black hats can hit areas of code likely to have vulnerabilities (parsers that allocate and manage many buffers) to exploit a program to do something else (put files on the filesystem and/or execute code).</p>
-<p>So breaking your program up separates the part that handles lots of buffers from the part that talks to the filesystem. It not only gets the programmer to think about the design more, reducing bugs, it also lessens the severity of any bugs that are left in. But it's only part of the battle. The system must also have the level of control which restricts the processes to just the set of resources necessary to do their jobs. Unix has some of this, but it's tricky. There also have to be standard services to call to get access to special resources, like arbitrary parts of the filesystem.</p>
-<p>Even if all of that is in place, we still don't see tons of developers creating this type of secure software. <strong>So long as it's been possible for people <em>not</em> to write applications in this way, they will not.</strong> It's harder, and there isn't an economic payoff. It isn't a feature that users generally pay for, in part, because customers can't evaluate security well on a program by program basis.</p>
-<p>But Apple has an incentive to keep the <em>platform itself</em> more secure. People may not evaluate single programs against each other, but they do know which platforms are riddled with security problems. The Mac has benefitted from low malware rates for years, and Apple has marketed on that fact. Now they must actively take care to keep that reputation.</p>
-<p>iOS users are unprecedented in the current computer age for their trust and willingness to install applications. So far, that trust has been earned by Apple. Especially compared to Android, where trojans are removed only after they cause a few thousand people some harm. If Apple can make their Mac App Store as secure, then everyone with an ounce of technical sense will be telling their family members to buy Apple, if only to reduce their own support burden.</p>
-<p>I applaud Apple for taking security seriously. Not because it's altruistic — they're doing it entirely because it's a measurable competitive advantage. I applaud them for gaining their advantage honestly, with real security improvements, instead of <a href="http://en.wikipedia.org/wiki/Security_theatre">security theatre</a>. They could have just tried to run from the bear a little faster than Windows. Instead they're trying something substantial, at a nontrivial cost.</p>
-<p>Not only is it laudable, it's likely to teach a generation of programmers what secure software looks like. This could raise the bar permanently on what platforms are expected to provide, leaving a legacy of better-engineered code as the result. When all the dust settles, that may be the largest impact Lion has.</p>
-  <div class="taglist">mac</div>
+  <p>At <a href="http://www.marco.org/2013/08/30/sculpt-ergonomic-keyboard-review">Marco's insistence</a>, I decided to try a Microsoft Sculpt ergonomic keyboard. Even those without <a href="http://en.wikipedia.org/wiki/Repetitive_strain_injury">RSI</a> can suffer from poor ergonomics when typing all day, so a design minimizing fatigue and pain is welcome.<br />
+</p>
+<p>My old solution was to prop up the front of Apple's wireless keyboard to make it flat. I used bits of old cardboard, which would have made Jony Ive blanch. They weren't chamfered or anything.</p>
+<h2>The Good</h2>
+<p>The Sculpt has some familiarity for those used to Apple's modern aluminium keyboards. The sculpt's keys are similarly low-travel, flat-topped, and silent. The arrow keys, while thankfully almost three times the size of Apple's, are close and tucked into the corner. Every attempt has been made to eliminate unnecessary width, including detaching the number pad and making vertical the control buttons usually on the right hand side. </p>
+<p>Even some minor parts of the design have a commendable attention to detail. Both the battery door and stand are attached by magnets rather than fragile plastic tabs. And you don't read much about battery life because it seems to be a solved problem. Battery life is measured in months instead of days or weeks.</p>
+<h2>The Bad</h2>
+<p>As a heavy <code>vim</code> user, the main compromise is that the top row — including the escape key — are not actual keyboard buttons. They're zero-travel buttons like you'd see on the front of your monitor or TV. With how often I use <code>Esc</code>, the key may wear out before the batteries wear out.</p>
+<p>The top row is even more problematic for Mac users. Apple's keyboards use the F-key row for all sorts of different functions than Windows computers, and the only overlap with the Sculpt is the mute and volume keys. All the other special functions are Windows-specific, and don't do anything on the Mac. And if you flip the toggle to use the F-keys, then you lose even the handy ability to easily change the volume.</p>
+<h2>Two Weeks In</h2>
+<p>Switching to a split keyboard from a regular one quickly shows your unconventional habits, typing keys left of the centerline with the right hand, or vice versa. The more unconventional, the more trouble you'll have with a split keyboard. For me, it's the <code>Y</code>. I often type <code>Y</code> with my left hand, and it's taken time to train the proper way.</p>
+<p>The designers have done a great job enlargening the bottom row of keys: Ctrl, Alt, &#8984;, space. You don't need to be very accurate to find the right key. And even though the backspace key is quite large, it <em>feels</em> so far away that it's taken more time to be accurate with. The bottom line is that, while different, there is no large productivity loss. For a coder, often the bottleneck isn't speed of typing, it's the speed of figuring out what to type.</p>
+<p>As far as the main purpose of the keyboard: I can report having no fatigue or wrist pain, in situations which might have caused it with my old setup. Absence of evidence isn't evidence of absence, I know — there have also been no tiger attacks in my office since I purchased the keyboard. But it's a good start. Of course the type of keyboard is just the start: there's elevation, posture, distance to the keyboard, and all sorts of other ergonomic factors that feed into pain-free typing. Bu this keyboard won't get in your way, if that's your goal.</p>
+<p>In all, I heartily endorse Marco's hearty endorsement. If they fixed the top row's hardware and functionality problems it would go from being a good keyboard to a great one.</p>
+  <div class="taglist">review, microsoft</div>
   <footer>
     
     Posted
      by Steve 
-     on 2011-08-02 07:47:00
+     on 2014-03-19 13:10:34
     
   </footer>
 </article>
@@ -83,95 +87,15 @@
     
       
         
-          
-            
-            <div class="supplements">
-              <nav class="archives related">
-                <h1>Related Posts</h1>
-                <ul>
-            
-            
-                <li><a class="archivelink" href="/2011/02/navigating-the-app-store.html">Navigating the App Store</a></li>
-            
-            
-          
-        
       
     
-      
-        
-          
-            
-                <li><a class="archivelink" href="/2011/04/the-mac-app-store.html">The (Mac) App Store</a></li>
-            
-            
-          
-        
-      
+    
+  
     
       
         
       
     
-      
-        
-          
-            
-                <li><a class="archivelink" href="/2011/10/unix-without-a-filesystem.html">Unix Without A Filesystem</a></li>
-            
-            
-          
-        
-      
-    
-      
-        
-          
-            
-                <li><a class="archivelink" href="/2012/02/why-annual-osx-releases-are-important.html">Why Annual OS X Releases Are Important</a></li>
-            
-            
-          
-        
-      
-    
-      
-        
-          
-            
-                <li><a class="archivelink" href="/2012/03/hacking-away-at-wimp.html">Hacking Away At WIMP</a></li>
-            
-            
-          
-        
-      
-    
-      
-        
-          
-            
-                <li><a class="archivelink" href="/2012/03/why-add-a-printer-at-all.html">Why Add A Printer At All</a></li>
-            
-            
-          
-        
-      
-    
-      
-        
-          
-            
-                <li><a class="archivelink" href="/2012/04/belated-praise-for-launchd.html">Belated Praise for Launchd</a></li>
-            
-            
-          
-        
-      
-    
-    
-          </ul>
-        </nav>
-      </div>
     
   
 
