@@ -6,7 +6,7 @@
   <link href="http://dangerinc.ca/"/>
   <link rel="self" href="http://dangerinc.ca/feeds/blog.xml"/>
   
-  <updated>2014-05-31T11:10:00-02:30</updated>
+  <updated>2015-03-17T21:06:00-02:30</updated>
   <author>
     <name>Steven Smolinski</name>
   </author>
@@ -14,6 +14,23 @@
   <logo>/apple-touch-icon-57x57-precomposed.png</logo>
   <rights>Copyright 2012 Steven Smolinski</rights>
 
+  
+  
+  <entry>
+    <title>Who is the New MacBook For?</title>
+    <link href="http://dangerinc.ca/2015/03/who-is-the-macbook-for.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2015/03/who-is-the-macbook-for.html</id>
+    <updated>2015-03-17T21:06:00-02:30</updated>
+    <content type="html">&lt;p&gt;&lt;a href=&#34;http://www.apple.com/macbook/&#34;&gt;The New MacBook&#39;s&lt;/a&gt; design is more polarizing than I expected. In the days since its announcement, many Mac lovers have been rationalizing it as a lame duck, either as a set of poor tradeoffs made solely to announce a new direction (like the original Air) or an under-appointed computer for &#34;the masses&#34; (ugh). As a counterpoint, I&#39;ll detail why a programmer might love this Mac.&lt;/p&gt;
+&lt;p&gt;This is the Mac that will allow me to work from anywhere, with &lt;em&gt;just enough&lt;/em&gt; technology. I have coveted the freedom that writers like &lt;a href=&#34;http://www.macstories.net/author/viticci/&#34;&gt;Federico Viticci&lt;/a&gt; enjoy by moving to an iPad. I want to be able to run out the door with a thin, 2 lb. sliver of technology, able to be productive anywhere. For development this requires an iPad-like experience, but with Mac OS X rather than iOS. iOS may have multitasking and extensions, but it is not close to being sophisticated enough to run a full POSIX development environment, web services stack, with database and testing tools. (That&#39;s ok, I don&#39;t think iOS need ever be that sophisticated.)&lt;/p&gt;
+&lt;p&gt;So this MacBook is &lt;em&gt;my&lt;/em&gt; iPad. The limitations don&#39;t affect my use case much at all. I don&#39;t care that it doesn&#39;t have many ports, since I have another desktop Mac with lots of monitors and drives attached. Literally &lt;em&gt;all&lt;/em&gt; important data can be synced through online services such as Dropbox, iCloud, github, FeedWrangler, IMAP servers, and even Overcast, so it&#39;s always up to date. The MacBook is also useful offline with a local copy of everything important.&lt;/p&gt;
+&lt;p&gt;Performance will likely be acceptable for some developers. Server-side development largely requires text editors and unix utilities in Terminal, along with a server stack and database. But it only has to run a handful of processes at a reasonable speed. Many development tasks are less resource intensive than transcoding video or mining for dogecoin. This applies to screen size as well. XCode or Logic Pro users may be squinting, but I spend all day in Terminal and MacVim.&lt;/p&gt;
+&lt;p&gt;What I really need is something so unobtrusive that I will not hesitate to bring it along, and use in any environment (including a cramped coach seat in an airplane). This new MacBook can give me that experience &lt;em&gt;better&lt;/em&gt; than a 13&#34; Retina MacBook Pro. It&#39;s like an iPad but with Mac OS X and a hardware keyboard. That&#39;s just perfect.&lt;/p&gt;</content>
+  </entry>
+  
   
   
   <entry>
