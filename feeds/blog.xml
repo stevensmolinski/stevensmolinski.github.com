@@ -6,7 +6,7 @@
   <link href="http://dangerinc.ca/"/>
   <link rel="self" href="http://dangerinc.ca/feeds/blog.xml"/>
   
-  <updated>2015-03-17T21:06:00-02:30</updated>
+  <updated>2015-05-10T00:48:00-02:30</updated>
   <author>
     <name>Steven Smolinski</name>
   </author>
@@ -14,6 +14,22 @@
   <logo>/apple-touch-icon-57x57-precomposed.png</logo>
   <rights>Copyright 2012 Steven Smolinski</rights>
 
+  
+  
+  <entry>
+    <title>Why I Don't Have an Apple Watch</title>
+    <link href="http://dangerinc.ca/2015/05/why-I-dont-have-an-apple-watch.html"/>
+    
+    <author><name>Steve</name></author>
+    
+    <id>http://dangerinc.ca/2015/05/why-I-dont-have-an-apple-watch.html</id>
+    <updated>2015-05-10T00:48:00-02:30</updated>
+    <content type="html">&lt;p&gt;As a watch-wearing Apple fan, you would think I&#39;m in the target market for the Apple Watch. I&#39;m heavily invested in the Apple ecosystem already. I even ordered a new MacBook on April 10. But, I declined to order a watch. And I probably won&#39;t get one until I need to write a WatchKit app (or more likely, a native app). Some people are surprised when I tell them, so I&#39;ll lay out my reasoning here.&lt;/p&gt;
+&lt;p&gt;My primary use for watches is to tell the time and the date. &lt;a href=&#34;http://daringfireball.net/2015/04/the_apple_watch&#34;&gt;John Gruber&#39;s review&lt;/a&gt; warned that the Apple Watch is actually inferior at telling the time than a regular watch in one respect: the screen stays off unless it (imperfectly) detects you need the time. Since I already have very well established habits of glancing at a watch without much movement, the imperfections in detection would likely be annoying. It&#39;s hard to talk myself into a downgrade in timekeeping.&lt;/p&gt;
+&lt;p&gt;The Apple watch does not want to be just another watch in a collection, worn once a week. Many features of the Apple watch reward wearing it all the time, or could be valuable enough to want to wear it all the time. So if it&#39;s not compelling, I wouldn&#39;t want to wear it one day a week — but if it &lt;em&gt;is&lt;/em&gt; compelling, I wouldn&#39;t want to wear it less than seven days a week. So I need to wait until the watch is good enough to justify obsoleting my entire swiss mechanical watch collection.&lt;/p&gt;
+&lt;p&gt;I don&#39;t doubt that it will eventually improve, and offer a superior experience to mechanical watches. It&#39;s just a matter of time. When I switch, it will be because the watch is so capable and exciting I no longer mind shelving the rest of the collection. Tough to imagine, and bittersweet.&lt;/p&gt;</content>
+  </entry>
+  
   
   
   <entry>
